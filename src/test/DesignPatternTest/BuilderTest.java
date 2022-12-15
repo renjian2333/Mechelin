@@ -1,8 +1,8 @@
 package test.DesignPatternTest;
 
-import com.tongji.michelin.machine.processmachine.productmachine.milkchocmachine.WesternDishController;
-import com.tongji.michelin.machine.processmachine.productmachine.milkchocmachine.MeatWesternDishMachine;
-import com.tongji.michelin.machine.processmachine.productmachine.milkchocmachine.VegetableWesternDishMachine;
+import com.tongji.michelin.machine.processmachine.productmachine.westerndishmachine.WesternDishController;
+import com.tongji.michelin.machine.processmachine.productmachine.westerndishmachine.MeatWesternDishMachine;
+import com.tongji.michelin.machine.processmachine.productmachine.westerndishmachine.VegetableWesternDishMachine;
 
 import java.util.Random;
 import java.util.Scanner;

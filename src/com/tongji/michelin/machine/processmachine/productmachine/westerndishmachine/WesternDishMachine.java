@@ -1,4 +1,4 @@
-package com.tongji.michelin.machine.processmachine.productmachine.milkchocmachine;
+package com.tongji.michelin.machine.processmachine.productmachine.westerndishmachine;
 
 import com.tongji.michelin.machine.processmachine.productmachine.BasicProductMachine;
 import com.tongji.michelin.product.dinner.WesternDish;

@@ -1,4 +1,4 @@
-package com.tongji.michelin.machine.processmachine.productmachine.milkchocmachine;
+package com.tongji.michelin.machine.processmachine.productmachine.westerndishmachine;
 
 /**
  * @author Yuan.Cai

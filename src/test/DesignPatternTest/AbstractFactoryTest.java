@@ -8,25 +8,22 @@ import java.util.Scanner;
 import java.util.Random;
 
 /**
- * @author Yuan.Cai
- * @project chocolateFactory
- * @classname AbstractFactoryTest
- * @description Test for Design Pattern --- Abstract Factory
- * @date 2020/11/24 0:04
- */
+ * @Author qxh
+ * @Classname AbstractFactoryTest
+ * @Description Test for Design Pattern --- Abstract Factory
+ **/
 public class AbstractFactoryTest {
     public static void main(String[] args) {
-        System.out.println("------------------------------------ [Abstract Factory] Test ------------------------------------");
+        System.out.println("---------------------------- [Abstract Factory] Test --------------------------------");
         System.out.println("");
-        System.out.println("Workshop : produceChocolate() : Let the specific workshop produce specific chocolate");
-        System.out.println("Workshop : produceChocolateCookie() : Let the specific workshop produce specific chocolate products");
+        System.out.println("Cookshop : produceDinner()");
+        System.out.println("Cookshop : produceDessert()");
         System.out.println("");
 
-        System.out.println("Create a new workshop producing white chocolate products...");
+        System.out.println("Create a new cook shop to cook western food");
         CookShop westernCookShop = new WesternCookshop();
-        System.out.println("Create a new workshop producing dark chocolate products...");
+        System.out.println("Create a new cook shop to cook Chinese food");
         CookShop chineseCookshop = new ChineseCookshop();
-
 
         Scanner input = new Scanner(System.in);
         int op;
@@ -51,13 +48,13 @@ public class AbstractFactoryTest {
                     flag = false;
                     break;
                 case 1: {
-                    System.out.println("Let westernCookShop start producing chocolate...");
+                    System.out.println("Let westernCookShop start producing western dinner...");
                     westernCookShop.produceDinner();
-                    System.out.println("Let westernCookShop start producing chocolate products...");
+                    System.out.println("Let westernCookShop start producing western dessert...");
                     westernCookShop.produceDessert();
-                    System.out.println("Let chineseCookshop start producing chocolate...");
+                    System.out.println("Let chineseCookshop start producing chinese dinner...");
                     chineseCookshop.produceDinner();
-                    System.out.println("Let chineseCookshop start producing chocolate products...");
+                    System.out.println("Let chineseCookshop start producing chinese dessert...");
                     chineseCookshop.produceDessert();
                     break;
                 }
@@ -72,14 +69,14 @@ public class AbstractFactoryTest {
                     String number=String.valueOf(num);
                     westernCookShop.productMachine=new BasicProductMachine("PR", number);
                     String name = westernCookShop.productMachine.getMachineID();
-                    System.out.println("In the WhiteWorkshop, machine " + name + " has been set to produce.\n");
+                    System.out.println("In the WesternCookshop, machine " + name + " has been set to produce.\n");
                     westernCookShop.productMachine.setAimProcessNum(250);
 
                     num = rand.nextInt(1000);
                     number=String.valueOf(num);
                     chineseCookshop.productMachine=new BasicProductMachine("PR", number);
                     name = chineseCookshop.productMachine.getMachineID();
-                    System.out.println("In the DarkWorkshop, machine " + name + " has been set to produce.\n");
+                    System.out.println("In the chineseCookshop, machine " + name + " has been set to produce.\n");
                     chineseCookshop.productMachine.setAimProcessNum(250);
                     break;
                 }

@@ -13,16 +13,11 @@ import com.tongji.michelin.rawmaterial.RawMaterial;
 import java.util.ArrayList;
 
 /**
- * @author Kerr
- * @project chocolateFactory
- * @classname Product
- * @description the basic class of all products
- * @date 2020/11/8 09:22
- */
+ * @Author qxh
+ * @Description the basic class of all food
+ **/
+
 public abstract class Product {
-
-// fields
-
     protected String productName;
 
     protected String producedDate; // yyyy-mm-dd
@@ -38,8 +33,6 @@ public abstract class Product {
     protected PackageMaterial pack;
 
     public ArrayList<RawMaterial> ingredientList;
-
-// constructor
 
     /**
      * @param name
