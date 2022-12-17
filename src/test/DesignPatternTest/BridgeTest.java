@@ -17,15 +17,15 @@ import java.util.Scanner;
 public class BridgeTest {
     static public void bridgeTest() {
         System.out.println("");
-        System.out.println("***************************   Bridge Test   ***************************");
-        System.out.println("***                 1. 选择夹心类型                                  ***");
-        System.out.println("***                 2. 选择巧克力类型                                ***");
-        System.out.println("***                 3. 等待桥接完成！                                ***");
-        System.out.println("***********************************************************************");
+        System.out.println("*****************   Bridge Test   *****************");
+        System.out.println("***                1. 选择酒水类型                 ***");
+        System.out.println("***                2. 选择菜品类型                 ***");
+        System.out.println("***                3. 等待桥接完成！               ***");
+        System.out.println("***************************************************");
         System.out.println("");
         Scanner scanner = new Scanner(System.in);
-        System.out.println("首先新建一个Sandwich对象……");
-        System.out.println("请选择夹心类型：1.榛仁  2.酒心");
+        System.out.println("首先新建一个Drink对象……");
+        System.out.println("请选择酒水类型：1.豆奶  2.葡萄酒");
         Drink drink;
         int tmp;
         while (true) {
@@ -33,28 +33,28 @@ public class BridgeTest {
                 tmp = scanner.nextInt();
                 if (tmp == 1) {
                     drink = new SoyMilk();
-                    System.out.println("选择夹心类型为：榛仁！");
+                    System.out.println("选择酒水类型为：豆奶！");
                     break;
                 } else if (tmp == 2) {
                     drink = new Wine();
-                    System.out.println("选择夹心类型为：酒心！");
+                    System.out.println("选择酒水类型为：葡萄酒！");
                     break;
                 } else {
-                    System.out.println("请选择夹心类型:1.榛仁  2.酒心");
+                    System.out.println("请选择酒水类型:1.豆奶  2.葡萄酒");
                 }
             } catch (Exception e) {
-                System.out.println("请重新选择夹心类型。");
+                System.out.println("请重新选择酒水类型。");
             }
         }
-        System.out.println("新建Chocolate对象……");
+        System.out.println("新建Dinner对象……");
         int cmd;
         while (true) {
             try {
                 System.out.println("");
-                System.out.println("选择你想放入的巧克力。");
-                System.out.println("1.牛奶巧克力  2.抹茶巧克力  3.黑巧克力  4.白巧克力  5.退出测试");
+                System.out.println("选择你想要的菜品。");
+                System.out.println("1.西餐  2.抹茶巧克力  3.宫保鸡丁  4.牛排  5.退出测试");
                 cmd = scanner.nextInt();
-                System.out.println("获取夹心巧克力的名字:");
+                System.out.println("获取正餐套餐的名字:");
                 Dinner dinnerWithDrink;
                 if (cmd == 1) {
                     dinnerWithDrink = new WesternDish(drink);
@@ -82,11 +82,11 @@ public class BridgeTest {
 
     public static void main(String[] args) {
         System.out.println("—————————————-------------------------------------———— Test[Bridge]Pattern —————————————-------------------------------------————");
-        System.out.println("Chocolate : Chocolate() : Construct a Chocolate object with a sandwich object as a parameter to achieve decoupling of sandwich from the chocolate itself.");
-        System.out.println("MilkChocolate : MilkChocolate() : Construct a milk chocolate to achieve decoupling of sandwich from the chocolate itself.");
-        System.out.println("MatchaChocolate : MatchaChocolate() : Construct a matcha chocolate to achieve decoupling of sandwich from the chocolate itself.");
-        System.out.println("WhiteChocolate : WhiteChocolate() : Construct a white chocolate to achieve decoupling of sandwich from the chocolate itself.");
-        System.out.println("BlackChocolate : BlackChocolate() : Construct a black chocolate to achieve decoupling of sandwich from the chocolate itself.");
+        System.out.println("Dinner : Dinner() : Construct a Dinner object with a drink object as a parameter to achieve decoupling of drink from the dinner itself.");
+        System.out.println("WesternDish : WesternDish() : Construct a WesternDish to achieve decoupling of drink from the dinner itself.");
+        System.out.println("MatchaChocolate : MatchaChocolate() : Construct a matcha chocolate to achieve decoupling of drink from the dinner itself.");
+        System.out.println("KungPaoChicken : KungPaoChicken() : Construct a KungPaoChicken to achieve decoupling of drink from the dinner itself.");
+        System.out.println("Steak : Steak() : Construct a Steak to achieve decoupling of drink from the dinner itself.");
         System.out.println("");
 
         bridgeTest();

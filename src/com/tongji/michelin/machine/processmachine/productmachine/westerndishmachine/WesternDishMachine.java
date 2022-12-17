@@ -14,12 +14,12 @@ public abstract class WesternDishMachine extends BasicProductMachine {
     protected WesternDish westernDish;
 
     public WesternDishMachine() {
-        super("MilkChocMachine", "000");
+        super("WesternDishMachine", "000");
         westernDish = new WesternDish();
     }
 
     public WesternDishMachine(String number) {
-        super("MilkChocMachine", number);
+        super("WesternDishMachine", number);
         westernDish = new WesternDish();
     }
 
@@ -28,7 +28,7 @@ public abstract class WesternDishMachine extends BasicProductMachine {
      *
      * @return a MilkChocolate
      */
-    public WesternDish getMilkChocolate() {
+    public WesternDish getWesternDish() {
         return westernDish;
     }
 
@@ -48,6 +48,6 @@ public abstract class WesternDishMachine extends BasicProductMachine {
     public abstract void useMilk();
 
     public String toString() {
-        return "class MilkChocMachine";
+        return "class WesternDishMachine";
     }
 }

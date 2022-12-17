@@ -17,7 +17,7 @@ public class ChineseCookshop extends CookShop {
         super();
         productMachine = new BasicProductMachine("PR", "0324");
         String name = productMachine.getMachineID();
-        System.out.println("In the DarkWorkshop, machine " + name + " has been set to produce.\n");
+        System.out.println("In the ChineseCookshop, machine " + name + " has been set to produce.\n");
         productMachine.setAimProcessNum(250);
     }
 
@@ -37,9 +37,9 @@ public class ChineseCookshop extends CookShop {
     public void produceDinner() {
         int outNum = productMachine.run(new KungPaoChicken());
         if (outNum == 0) {
-            System.out.println("Failing producing DarkChocolate!\n");
+            System.out.println("Failing producing chinese dinner!\n");
         } else {
-            System.out.println("Successfully producing " + outNum + " DarkChocolate!\n");
+            System.out.println("Successfully producing " + outNum + " chinese dinner!\n");
         }
     }
 
@@ -47,9 +47,9 @@ public class ChineseCookshop extends CookShop {
     public void produceDessert() {
         int outNum = productMachine.run(new MatchaIceCream(MatchaIceCream.Shape.CAT));
         if (outNum == 0) {
-            System.out.println("Failing producing ChocolateCookie in the shape of cat!\n");
+            System.out.println("Failing producing chinese dessert!\n");
         } else {
-            System.out.println("Successfully producing " + outNum + " ChocolateCookie in the shape of cat!\n");
+            System.out.println("Successfully producing " + outNum + " chinese dessert!\n");
         }
     }
 

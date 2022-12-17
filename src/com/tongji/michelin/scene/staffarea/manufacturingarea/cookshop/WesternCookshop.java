@@ -17,7 +17,7 @@ public class WesternCookshop extends CookShop {
         super();
         productMachine = new BasicProductMachine("PR", "1825");
         String name = productMachine.getMachineID();
-        System.out.println("In the WhiteWorkshop, machine " + name + " has been set to produce.\n");
+        System.out.println("In the WesternCookShop, machine " + name + " has been set to produce.\n");
         productMachine.setAimProcessNum(250);
     }
 
@@ -37,9 +37,9 @@ public class WesternCookshop extends CookShop {
     public void produceDinner() {
         int outNum = productMachine.run(new Steak());
         if (outNum == 0) {
-            System.out.println("Failing producing WhiteChocolate!\n");
+            System.out.println("Failing producing western dinner!\n");
         } else {
-            System.out.println("Successfully producing " + outNum + " WhiteChocolate!\n");
+            System.out.println("Successfully producing " + outNum + " western dinner!\n");
         }
     }
 
@@ -47,9 +47,9 @@ public class WesternCookshop extends CookShop {
     public void produceDessert() {
         int outNum = productMachine.run(new MatchaIceCream(MatchaIceCream.Shape.DOG));
         if (outNum == 0) {
-            System.out.println("Failing producing ChocolateCookie in the shape of dog!\n");
+            System.out.println("Failing producing western dessert!\n");
         } else {
-            System.out.println("Successfully producing " + outNum + " ChocolateCookie in the shape of dog!\n");
+            System.out.println("Successfully producing " + outNum + " western dessert!\n");
         }
     }
 

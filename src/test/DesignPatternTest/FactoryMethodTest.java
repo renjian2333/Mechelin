@@ -21,18 +21,18 @@ public class FactoryMethodTest {
         System.out.println("------------------------------------ Factory Method Test ------------------------------------");
 
         System.out.println("");
-        System.out.println("ChocolatesFactoryProducer : newChocoMachine(factoryName: String) : create one chocolate assembly line instance with the given name");
-        System.out.println("MilkChocolateAssemblyLine : getChocolate() : create one milk chocolate instance");
-        System.out.println("AlmondChocolateAssemblyLine : getChocolate() : create one almond chocolate instance");
+        System.out.println("RestaurantProducer : newRestaurant(restaurantName: String) : create one restaurant instance with the given name");
+        System.out.println("WesternDishAssemblyLine : getDish() : create one western dish instance");
+        System.out.println("ChineseDishAssemblyLine : getDish() : create one chinese dish instance");
         System.out.println("");
 
         System.out.println("");
-        System.out.println("*********************** Factory Method Test ***************************");
-        System.out.println("***                     1. milk chocolate                           ***");
-        System.out.println("***                     2. almond chocolate                         ***");
-        System.out.println("***                                                                 ***");
-        System.out.println("***            Input the chocolate you're gonna create              ***");
-        System.out.println("***********************************************************************");
+        System.out.println("********************* Factory Method Test *************************");
+        System.out.println("***                     1. western dish                         ***");
+        System.out.println("***                     2. chinese dish                         ***");
+        System.out.println("***                                                             ***");
+        System.out.println("***            Input the dinner you're gonna create             ***");
+        System.out.println("*******************************************************************");
         System.out.println("");
 
         Scanner input = new Scanner(System.in);
@@ -49,19 +49,19 @@ public class FactoryMethodTest {
                     flag = false;
                     break;
                 case 1: {
-                    System.out.println("\nNow let's create a milk chocolate instance.");
-                    DishAssemblyLine mkLine = RestaurantProducer.newRestaurant(AssemblyNameConst.WESTERN_RESTAURANT);
-                    Dinner mkChocolate = mkLine.getDinner();
-                    System.out.print("Here is the chocolate we've just created: ");
-                    mkChocolate.dispaly();
+                    System.out.println("\nNow let's create a western dish instance.");
+                    DishAssemblyLine chineseLine = RestaurantProducer.newRestaurant(AssemblyNameConst.WESTERN_RESTAURANT);
+                    Dinner chineseLineDinner = chineseLine.getDinner();
+                    System.out.print("Here is the dinner we've just created: ");
+                    chineseLineDinner.dispaly();
                     break;
                 }
                 case 2: {
-                    System.out.println("\nNow let's create an almond chocolate instance.");
-                    DishAssemblyLine alLine = RestaurantProducer.newRestaurant(AssemblyNameConst.CHINESE_RESTAURANT);
-                    Dinner alChocolate = alLine.getDinner();
-                    System.out.print("Here is the chocolate we've just created: ");
-                    alChocolate.dispaly();
+                    System.out.println("\nNow let's create a chinese dish instance.");
+                    DishAssemblyLine westernLine = RestaurantProducer.newRestaurant(AssemblyNameConst.CHINESE_RESTAURANT);
+                    Dinner westernLineDinner = westernLine.getDinner();
+                    System.out.print("Here is the dinner we've just created: ");
+                    westernLineDinner.dispaly();
                     break;
                 }
                 default: {

@@ -19,14 +19,14 @@ public class BuilderTest {
     public static void main(String[] args) {
         System.out.println("------------------------------------ [Builder] Test ------------------------------------");
         System.out.println("");
-        System.out.println("MilkChocController : startProduce() : Let the specific MilkChocMachine produce milk chocolate with a specific composition");
-        System.out.println("MilkChocController : getMilkChocolate() : Get the milk chocolate produced");
+        System.out.println("WesternDishController : startProduce() : Let the specific WesternDishMachine produce western dish with a specific composition");
+        System.out.println("WesternDishController : getWesternDish() : Get the western dish produced");
         System.out.println("");
 
-        System.out.println("Create a new MilkChocMachine producing milk chocolate in normal flavor and give control of it to a controller...");
-        WesternDishController normalWesternDishController =new WesternDishController(new MeatWesternDishMachine());
-        System.out.println("Create a new MilkChocMachine producing milk chocolate in thick flavor and give control of it to a controller...");
-        WesternDishController thickWesternDishController =new WesternDishController(new VegetableWesternDishMachine());
+        System.out.println("Create a new WesternDishMachine producing western dish in meat-flavor and give control of it to a controller...");
+        WesternDishController meatWesternDishController =new WesternDishController(new MeatWesternDishMachine());
+        System.out.println("Create a new WesternDishMachine producing western dish in vegetable-flavor and give control of it to a controller...");
+        WesternDishController vegetableWesternDishController =new WesternDishController(new VegetableWesternDishMachine());
 
         Scanner input = new Scanner(System.in);
         int op;
@@ -50,32 +50,32 @@ public class BuilderTest {
                     flag = false;
                     break;
                 case 1: {
-                    System.out.println("Let normalMilkChocMachine start producing...");
-                    normalWesternDishController.startProduce();
-                    System.out.println("Let thickMilkChocMachine start producing...");
-                    thickWesternDishController.startProduce();
+                    System.out.println("Let meatWesternDishMachine start producing...");
+                    meatWesternDishController.startProduce();
+                    System.out.println("Let vegetableWesternDishMachine start producing...");
+                    vegetableWesternDishController.startProduce();
                     break;
                 }
                 case 2: {
-                    normalWesternDishController.westernDishMachine.fix();
-                    thickWesternDishController.westernDishMachine.fix();
+                    meatWesternDishController.westernDishMachine.fix();
+                    vegetableWesternDishController.westernDishMachine.fix();
                     break;
                 }
                 case 3: {
                     Random rand = new Random();
                     int num = rand.nextInt(1000);
                     String number=String.valueOf(num);
-                    normalWesternDishController.westernDishMachine =new MeatWesternDishMachine(number);
-                    String name = normalWesternDishController.westernDishMachine.getMachineID();
+                    meatWesternDishController.westernDishMachine =new MeatWesternDishMachine(number);
+                    String name = meatWesternDishController.westernDishMachine.getMachineID();
                     System.out.println("Of the normalMilkChocController, machine " + name + " has been set to produce.\n");
-                    normalWesternDishController.westernDishMachine.setAimProcessNum(100);
+                    meatWesternDishController.westernDishMachine.setAimProcessNum(100);
 
                     num = rand.nextInt(1000);
                     number=String.valueOf(num);
-                    thickWesternDishController.westernDishMachine =new VegetableWesternDishMachine(number);
-                    name =  thickWesternDishController.westernDishMachine.getMachineID();
+                    vegetableWesternDishController.westernDishMachine =new VegetableWesternDishMachine(number);
+                    name =  vegetableWesternDishController.westernDishMachine.getMachineID();
                     System.out.println("Of the thickMilkChocController, machine " + name + " has been set to produce.\n");
-                    thickWesternDishController.westernDishMachine.setAimProcessNum(100);
+                    vegetableWesternDishController.westernDishMachine.setAimProcessNum(100);
                     break;
                 }
                 default:{

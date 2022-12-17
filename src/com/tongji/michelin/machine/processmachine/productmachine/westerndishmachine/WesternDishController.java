@@ -28,9 +28,9 @@ public class WesternDishController {
         westernDishMachine.useCocoaBean();
         westernDishMachine.useSugar();
         westernDishMachine.useMilk();
-        int outNum = westernDishMachine.run(westernDishMachine.getMilkChocolate());
+        int outNum = westernDishMachine.run(westernDishMachine.getWesternDish());
         if (outNum == 0) {
-            System.out.println("Failing producing MilkChocolate!");
+            System.out.println("Failing producing WesternDish!");
         } else {
             // System.out.println("Successfully producing " + outNum + " MilkChocolate!");
         }
@@ -43,10 +43,10 @@ public class WesternDishController {
      * @return a MilkChocolate
      */
     public WesternDish getWesternDish() {
-        return westernDishMachine.getMilkChocolate();
+        return westernDishMachine.getWesternDish();
     }
 
     public String toString() {
-        return "class MilkChocController";
+        return "class WesternDishController";
     }
 }
