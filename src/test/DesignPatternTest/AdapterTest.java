@@ -2,8 +2,8 @@ package test.DesignPatternTest;
 
 import com.tongji.michelin.machine.transportmachine.TransportMachine;
 import com.tongji.michelin.product.Product;
-import com.tongji.michelin.machine.transportmachine.UAVs.Adapter;
-import com.tongji.michelin.machine.transportmachine.UAVs.UAV;
+import com.tongji.michelin.machine.transportmachine.FDRs.Adapter;
+import com.tongji.michelin.machine.transportmachine.FDRs.FDR;
 
 import java.util.Scanner;
 
@@ -41,7 +41,7 @@ public class AdapterTest {
             }
         };
 
-        UAV uav = new Adapter(transportMachine);
+        FDR uav = new Adapter(transportMachine);
         uav.setAimProcessNum(1);
         uav.setID(transportMachine.getMachineID());
         System.out.println("送餐机器人的机器编号为：" + uav.getID());

@@ -1,4 +1,4 @@
-package com.tongji.michelin.machine.transportmachine.UAVs;
+package com.tongji.michelin.machine.transportmachine.FDRs;
 
 import com.tongji.michelin.machine.transportmachine.TransportMachine;
 import com.tongji.michelin.product.Product;
@@ -10,7 +10,7 @@ import com.tongji.michelin.product.Product;
  * @description: Adapter Pattern to implement UAV's work function
  * @date: 2020/11/17 16:35
  */
-public class Adapter implements UAV {
+public class Adapter implements FDR {
     private TransportMachine adaptee;
     private String mID;
 

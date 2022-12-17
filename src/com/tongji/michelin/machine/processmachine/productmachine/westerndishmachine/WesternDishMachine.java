@@ -35,17 +35,17 @@ public abstract class WesternDishMachine extends BasicProductMachine {
     /**
      * set the amount of chocolate in the product
      */
-    public abstract void useCocoaBean();
+    public abstract void useMeat();
 
     /**
      * set the amount of sugar in the product
      */
-    public abstract void useSugar();
+    public abstract void useVegetable();
 
     /**
      * set the amount of milk in the product
      */
-    public abstract void useMilk();
+    public abstract void useSalt();
 
     public String toString() {
         return "class WesternDishMachine";

@@ -93,11 +93,11 @@ public class InterpreterTest {
                     System.out.println("sb can be generalManager or " + visitor.getName());
                     System.out.println("somewhere can be:");
                     System.out.println("    |-- publicArea");
-                    System.out.println("    |-- darkChocolateWorkshop");
+                    System.out.println("    |-- chineseCookShop");
                     System.out.println("    |-- exhibitionRoom");
                     System.out.println("    |-- office");
                     System.out.println("    |-- experienceRoom");
-                    System.out.println("    |-- whiteChocolateWorkshop");
+                    System.out.println("    |-- westernCookShop");
                     inputSentence = input.next();
                     String[] s = inputSentence.split("->");
                     if (visitor.getName().equals(s[0])) {

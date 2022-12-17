@@ -17,24 +17,24 @@ public class VegetableWesternDishMachine extends WesternDishMachine {
     }
 
     @Override
-    public void useCocoaBean() {
-        westernDish.setCocoaBeanNum(150.0);
-        System.out.println("Use cocoaBeanNum = 150.0\n");
+    public void useMeat() {
+        westernDish.setMeatNum(150.0);
+        System.out.println("Use meatNum = 150.0\n");
     }
 
     @Override
-    public void useSugar() {
-        westernDish.setSugarNum(20.0);
-        System.out.println("Use sugarNum = 20.0\n");
+    public void useVegetable() {
+        westernDish.setVegetableNum(200.0);
+        System.out.println("Use vegetableNum = 200.0\n");
     }
 
     @Override
-    public void useMilk() {
-        westernDish.setMilkNum(5.0);
-        System.out.println("Use milkNum = 5.0\n");
+    public void useSalt() {
+        westernDish.setSaltNum(5.0);
+        System.out.println("Use saltNum = 5.0\n");
     }
 
     public String toString() {
-        return "class ThickMilkChocMachine extends MilkChocMachine";
+        return "class VegetableWesternDishMachine extends WesternDishMachine";
     }
 }

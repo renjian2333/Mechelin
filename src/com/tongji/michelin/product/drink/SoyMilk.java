@@ -12,6 +12,6 @@ public class SoyMilk implements Drink {
 // methods
     @Override
     public String getDrink() {
-        return "Hazelnut";
+        return "Soymilk";
     }
 }

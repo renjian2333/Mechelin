@@ -29,7 +29,7 @@ public class DessertMix extends Dessert {
      */
     public DessertMix(List<Class<? extends Dessert>> typeList)
             throws NewInstanceFailureException {
-        super("Chocolate Mix", Integer.MAX_VALUE, 0);
+        super("Dessert Mix", Integer.MAX_VALUE, 0);
         Dessert dessert = null;
         int chocolateShelfLife = 0;
         int index = 0;

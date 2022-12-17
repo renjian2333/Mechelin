@@ -215,7 +215,7 @@ public class CompositeTest {
             System.out.println("**      3 --- Enlarge the existing Group                           **");
             System.out.println("**      4 --- Show the  QualityTestSystem  structure               **");
             System.out.println("**      5 --- Exit                                                 **");
-            System.out.println("-----------------------------------------");
+            System.out.println("---------------------------------------------------------------------");
 //            System.out.println("请选择操作：[1 新建Cluster(Multiple)节点 | 2 新建Plant(Single)节点 | 3 往根节点中添加叶节点 | 4 查看树型结构 | 0]");
             choice = sc.next();
             if (choice.equals("1")) {

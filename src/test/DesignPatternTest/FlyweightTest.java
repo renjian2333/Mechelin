@@ -18,13 +18,13 @@ public class FlyweightTest {
     public static void main(String[] args) {
         final String HINT1 = "\n"
                 + "*************************** Flyweight Test ****************************\n"
-                + "***            <Phase 1: Create an Array of Chocolates>             ***\n"
+                + "***            <Phase 1: Create an Array of Dessert>             ***\n"
                 + "***                                                                 ***\n"
-                + "***            0. Construct ChocolateMix Now                        ***\n"
-                + "***            1. AlmondChocolate                                   ***\n"
-                + "***            2. DarkChocolate                                     ***\n"
-                + "***            3. MatchaChocolate                                   ***\n"
-                + "***            4. MilkChocolate                                     ***\n"
+                + "***            0. Construct DessertMix Now                        ***\n"
+                + "***            1. MangoIceCream                                   ***\n"
+                + "***            2. MatchaIceCream                                     ***\n"
+                + "***            3. ChocolateIceCream                                   ***\n"
+                + "***            4. ChocolateWafer                                     ***\n"
                 + "***                                                                 ***\n"
                 + "***********************************************************************\n";
 
@@ -47,10 +47,10 @@ public class FlyweightTest {
 
         System.out.println("");
         System.out
-                .println("ChocolateMix : ChocolateMix(typeList: List<Class<? extendsChocolate>>) : "
-                        + "Get an instance of subclass of Chocolate.");
+                .println("DessertMix : DessertMix(typeList: List<Class<? extendsDessert>>) : "
+                        + "Get an instance of subclass of Dessert.");
         System.out
-                .println("ChocolateMix : at(index: int) : Return the Chocolate instance at index.");
+                .println("DessertMix : at(index: int) : Return the dessert instance at index.");
         System.out.println("");
         System.out.println(HINT1);
 
@@ -62,7 +62,7 @@ public class FlyweightTest {
         Class<? extends Dessert> classChosen = null;
 
         do {
-            System.out.print("Enter the option [0 to construct ChocolateMix now]:");
+            System.out.print("Enter the option [0 to construct DessertMix now]:");
             op = input.nextInt();
             switch (op) {
                 case 0:
@@ -92,21 +92,21 @@ public class FlyweightTest {
             }
             if (classChosen != null) {
                 classes.add(classChosen);
-                System.out.println("Added chocolate type:" + classChosen.getSimpleName());
+                System.out.println("Added dessert type:" + classChosen.getSimpleName());
                 System.out.println("");
             } else {
                 System.out.println("");
             }
         } while (flag);
 
-        System.out.println("You will see creation of chocolate you selected here.");
+        System.out.println("You will see creation of dessert you selected here.");
         System.out.println("Each type will be displayed AT MOST ONCE:");
 
         try {
             DessertMix dessertMix = new DessertMix(classes);
             int index = 0;
             System.out.println("");
-            System.out.println("ChocolateMix instantiated as following:");
+            System.out.println("DessertMix instantiated as following:");
             System.out.println("index\ttype");
             System.out.println("-----\t---------------");
             while (dessertMix.at(index) != null) {
@@ -128,7 +128,7 @@ public class FlyweightTest {
                 System.out.println(dessertMix.at(lIndex) == dessertMix.at(rIndex));
             }
         } catch (Exception e) {
-            System.out.println("Failed to instantiate ChocolateMix.");
+            System.out.println("Failed to instantiate DessertMix.");
         }
 
     }

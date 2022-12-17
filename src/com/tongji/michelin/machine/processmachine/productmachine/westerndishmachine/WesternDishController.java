@@ -25,9 +25,9 @@ public class WesternDishController {
      * @return a int representing output
      */
     public int startProduce() {
-        westernDishMachine.useCocoaBean();
-        westernDishMachine.useSugar();
-        westernDishMachine.useMilk();
+        westernDishMachine.useMeat();
+        westernDishMachine.useVegetable();
+        westernDishMachine.useSalt();
         int outNum = westernDishMachine.run(westernDishMachine.getWesternDish());
         if (outNum == 0) {
             System.out.println("Failing producing WesternDish!");

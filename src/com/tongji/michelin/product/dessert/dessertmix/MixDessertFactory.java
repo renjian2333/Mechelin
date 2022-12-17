@@ -29,7 +29,7 @@ public class MixDessertFactory {
         Dessert dessert =
                 dessertMap.computeIfAbsent(type, (Class<? extends Dessert> key) -> {
                     try {
-                        System.out.println("Creating chocolate of type: " + key.getSimpleName());
+                        System.out.println("Creating dessert of type: " + key.getSimpleName());
                         return key.getDeclaredConstructor().newInstance();
                     } catch (Exception e) {
                         return null;

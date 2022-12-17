@@ -15,7 +15,7 @@ public class NewInstanceFailureException extends Exception {
     static final long serialVersionUID = 1L;
 // constructor
     public NewInstanceFailureException(Class<?> type) {
-        super("Failed to create chocolate of type: " + type.getSimpleName());
+        super("Failed to create dessert of type: " + type.getSimpleName());
     }
 
 }

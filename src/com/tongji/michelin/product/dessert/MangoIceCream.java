@@ -21,7 +21,7 @@ public class MangoIceCream extends Dessert {
      * @param size
      */
     public MangoIceCream(int size) {
-        super("Chocolate Cake", 1, size * size * 100);
+        super("Mango Ice-cream", 1, size * size * 100);
         this.size = size;
         this.initIngredientList();
     }
@@ -57,7 +57,7 @@ public class MangoIceCream extends Dessert {
      */
     @Override
     public String toString() {
-        return "ChocolateCake";
+        return "MangoIceCream";
     }
 
 }

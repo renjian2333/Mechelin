@@ -79,15 +79,15 @@ public class WesternDish extends Dinner implements Serializable, Cloneable {
     }
 
 
-    public void setCocoaBeanNum(double cocoaBeanNum) {
+    public void setMeatNum(double cocoaBeanNum) {
         this.cocoaBeanNum = cocoaBeanNum;
     }
 
-    public void setSugarNum(double sugarNum) {
+    public void setVegetableNum(double sugarNum) {
         this.sugarNum = sugarNum;
     }
 
-    public void setMilkNum(double milkNum) {
+    public void setSaltNum(double milkNum) {
         this.milkNum = milkNum;
     }
 

@@ -1,6 +1,7 @@
 package com.tongji.michelin.scene.staffarea.manufacturingarea.cookshop;
 
 import com.tongji.michelin.machine.processmachine.productmachine.BasicProductMachine;
+import com.tongji.michelin.product.dessert.ChocolateIceCream;
 import com.tongji.michelin.product.dinner.Steak;
 import com.tongji.michelin.product.dessert.MatchaIceCream;
 import com.tongji.michelin.scene.SceneNameConst;
@@ -45,7 +46,7 @@ public class WesternCookshop extends CookShop {
 
     @Override
     public void produceDessert() {
-        int outNum = productMachine.run(new MatchaIceCream(MatchaIceCream.Shape.DOG));
+        int outNum = productMachine.run(new ChocolateIceCream());
         if (outNum == 0) {
             System.out.println("Failing producing western dessert!\n");
         } else {

@@ -22,7 +22,7 @@ public class MatchaIceCream extends Dessert {
      * @param shape
      */
     public MatchaIceCream(Shape shape) {
-        super("MatchaIceCream", 6, 7);
+        super("Matcha Ice-cream", 6, 7);
         this.shape = shape;
         this.initIngredientList();
     }

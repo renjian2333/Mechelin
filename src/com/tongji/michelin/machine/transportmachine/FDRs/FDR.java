@@ -1,16 +1,15 @@
-package com.tongji.michelin.machine.transportmachine.UAVs;
+package com.tongji.michelin.machine.transportmachine.FDRs;
 
-import com.tongji.michelin.machine.transportmachine.TransportMachine;
 import com.tongji.michelin.product.Product;
 
 /**
  * @project chocolateFactory
  * @author: Miracle Ray
- * @classname UAV
- * @description: This is basic function of UAV. (UAV means unmanned aerial vehicle, in Chinese means 无人机)
+ * @classname FDR
+ * @description: This is basic function of FDR. (FDR means food-delivered robot, in Chinese means 送餐机器人)
  * @date: 2020/11/17 16:30
  */
-public interface UAV {
+public interface FDR {
 
     int work(Product product);
 
