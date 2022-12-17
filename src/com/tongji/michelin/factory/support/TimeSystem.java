@@ -67,19 +67,19 @@ public class TimeSystem {
 
         if (curHour == 6) {
 
-            CaoanRestaurant.getCharlieFactory().setDirtyTrue();
+            CaoanRestaurant.getCaoanRestaurant().setDirtyTrue();
         }
 
         if (curDay == 62) {
-            CaoanRestaurant.getCharlieFactory().setAgingTrue();
+            CaoanRestaurant.getCaoanRestaurant().setAgingTrue();
         }
 
-        if (CaoanRestaurant.getCharlieFactory().getDirtyFlag()) {
-            CaoanRestaurant.getCharlieFactory().doClean();
+        if (CaoanRestaurant.getCaoanRestaurant().getDirtyFlag()) {
+            CaoanRestaurant.getCaoanRestaurant().doClean();
         }
 
-        if (CaoanRestaurant.getCharlieFactory().getAgingFlag()) {
-            CaoanRestaurant.getCharlieFactory().doMaintenance();
+        if (CaoanRestaurant.getCaoanRestaurant().getAgingFlag()) {
+            CaoanRestaurant.getCaoanRestaurant().doMaintenance();
         }
 
     }

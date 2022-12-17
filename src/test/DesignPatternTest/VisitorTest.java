@@ -48,13 +48,13 @@ public class VisitorTest {
                     break;
                 case 1: {
                     System.out.println("Visitor Pattern Test: Test the treatment method of Cleaner (Cleaner)：");
-                    CaoanRestaurant.getCharlieFactory().doClean();
+                    CaoanRestaurant.getCaoanRestaurant().doClean();
                     System.out.println("");
                     break;
                 }
                 case 2: {
                     System.out.println("Visitor Pattern Test: Test the treatment method of MaintenanceWorker (MaintenanceWorker)：");
-                    CaoanRestaurant.getCharlieFactory().doMaintenance();
+                    CaoanRestaurant.getCaoanRestaurant().doMaintenance();
                     break;
                 }
                 default:{

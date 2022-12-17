@@ -12,7 +12,7 @@ import java.util.Scanner;
  * @project chocolateFactory
  * @classname DaoTest
  * @description test for Dao
- * @date 2020/11/27 12：10
+ * @date 20224/11/27 12：10
  */
 public class DAOTest {
 

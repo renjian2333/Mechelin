@@ -10,7 +10,7 @@ import java.util.Scanner;
  * @project chocolateFactory
  * @classname DecoratorTest
  * @description This is decorator test
- * @date 2020/11/24 19:55
+ * @date 2022/11/24 19:55
  */
 public class DecoratorTest {
     public static void main(String[] args) {

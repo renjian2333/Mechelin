@@ -12,13 +12,13 @@ import java.util.Scanner;
  * @project chocolateFactory
  * @classname ExtensionObjects
  * @description Test for Design Pattern --- Extension Objects
- * @date 2020/11/24 0:58
+ * @date 2022/11/24 0:58
  */
 public class ExtensionObjectsTest {
     public static void main(String[] args) {
         System.out.println("------------------------------------ [Extension Objects] Test ------------------------------------");
         System.out.println("");
-        System.out.println("AugProductMachine : continueWork(workNum: int,  product: Product) : Let the specific MilkChocMachine produce milk chocolate with a specific composition");
+        System.out.println("AugProductMachine : continueWork(workNum: int,  product: Product) : Let the specific WesternDishMachine produce WesternDish with a specific composition");
         System.out.println("AugProductMachine : fix() : Fix machine");
         System.out.println("");
 
@@ -49,7 +49,7 @@ public class ExtensionObjectsTest {
                 case 1: {
                     System.out.print("Please enter the number of times the machine runs:");
                     int workNum = input.nextInt();
-                    System.out.println("\nLet AugProductMachine run "+workNum+" times producing dark chocolate...\n");
+                    System.out.println("\nLet AugProductMachine run "+workNum+" times producing dish...\n");
                     augProductMachine.continueWork(workNum, new KungPaoChicken());
                     break;
                 }

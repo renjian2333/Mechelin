@@ -67,7 +67,7 @@ public class CaoanRestaurant {
      *
      * @return the only one instance of the factory class
      */
-    public static CaoanRestaurant getCharlieFactory() {
+    public static CaoanRestaurant getCaoanRestaurant() {
         if (instance == null) {
             instance = new CaoanRestaurant();
         }

@@ -10,7 +10,7 @@ import java.util.Scanner;
  * @project chocolateFactory
  * @classname DirtyFlagTest
  * @description Test for dirty flag pattern
- * @date 2020/11/24 22:02
+ * @date 2022/11/24 22:02
  */
 public class DirtyFlagTest {
 
@@ -19,8 +19,8 @@ public class DirtyFlagTest {
         System.out.println("------------------------------------ Dirty Flag Test ------------------------------------");
 
         System.out.println("");
-        System.out.println("TimeSystem : tick(): void : check the cleaning and aging condition of the factory every once in a while");
-        System.out.println("PeriodicMaintenance : get/setDirty/AgingFlag(): boolean/void : get or set the cleaning and aging condition of the factory");
+        System.out.println("TimeSystem : tick(): void : check the cleaning and aging condition of the restaurant every once in a while");
+        System.out.println("PeriodicMaintenance : get/setDirty/AgingFlag(): boolean/void : get or set the cleaning and aging condition of the restaurant");
         System.out.println("");
 
         System.out.println("");
@@ -51,7 +51,7 @@ public class DirtyFlagTest {
                     break;
                 case 1: {
                     if (timeSystem == null) {
-                        CaoanRestaurant.getCharlieFactory();
+                        CaoanRestaurant.getCaoanRestaurant();
                         timeSystem = new TimeSystem();
                         System.out.println("Now the timer starts.");
                     }
@@ -61,11 +61,11 @@ public class DirtyFlagTest {
                     break;
                 }
                 case 2: {
-                    CaoanRestaurant.getCharlieFactory().setDirtyTrue();
+                    CaoanRestaurant.getCaoanRestaurant().setDirtyTrue();
                     break;
                 }
                 case 3: {
-                    CaoanRestaurant.getCharlieFactory().setAgingTrue();
+                    CaoanRestaurant.getCaoanRestaurant().setAgingTrue();
                     break;
                 }
                 default:{
