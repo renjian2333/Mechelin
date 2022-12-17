@@ -16,12 +16,12 @@ public class Steak extends Dinner {
 
     // constructor
     public Steak() {
-        super("White chocolate", 12, 5, 0.1);
+        super("Steak", 12, 5, 0.1);
     }
 
     // constructor
     public Steak(Drink drink) {
-        super("White chocolate", 12, 5, 0.1, drink);
+        super("Steak", 12, 5, 0.1, drink);
         this.initIngredientList();
     }
 
@@ -42,12 +42,12 @@ public class Steak extends Dinner {
      * @return
      */
     public String getNameWithDrink() {
-        return drink.getDrink() + " WhiteChocolate";
+        return drink.getDrink() + " Steak";
     }
 
     @Override
     public String toString() {
-        return "subclass : WhiteChocolate";
+        return "subclass : Steak";
     }
 
     @Override

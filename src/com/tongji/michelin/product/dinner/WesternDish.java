@@ -24,12 +24,12 @@ public class WesternDish extends Dinner implements Serializable, Cloneable {
 
     //constructor
     public WesternDish() {
-        super("Milk chocolate", 18, 15, 0.3);
+        super("WesternDish", 18, 15, 0.3);
     }
 
     //constructor
     public WesternDish(Drink drink) {
-        super("Milk chocolate", 18, 15, 0.3, drink);
+        super("WesternDish", 18, 15, 0.3, drink);
         this.milkContent = 0.4;
         this.initIngredientList();
     }
@@ -65,7 +65,7 @@ public class WesternDish extends Dinner implements Serializable, Cloneable {
      * @return
      */
     public String getNameWithDrink() {
-        return drink.getDrink() + " MilkChocolate";
+        return drink.getDrink() + " WesternDish";
     }
 
     /**
@@ -75,7 +75,7 @@ public class WesternDish extends Dinner implements Serializable, Cloneable {
      */
     @Override
     public String toString() {
-        return "subclass : Milk Chocolate";
+        return "subclass : Western Dish";
     }
 
 
@@ -105,7 +105,7 @@ public class WesternDish extends Dinner implements Serializable, Cloneable {
 
     @Override
     public void dispaly() {
-        System.out.println("this is MilkChocolate!!");
+        System.out.println("this is WesternDish!!");
     }
 
     @Override

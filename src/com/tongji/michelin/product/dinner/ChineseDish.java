@@ -32,7 +32,7 @@ public class ChineseDish extends Dinner {
      */
     @Override
     public void dispaly() {
-        System.out.println("this is AlmondChocolate!");
+        System.out.println("this is ChineseDish!");
     }
 
     @Override

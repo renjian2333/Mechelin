@@ -15,12 +15,12 @@ public class KungPaoChicken extends Dinner {
 
     // constructor
     public KungPaoChicken() {
-        super("Dark chocolate", 18, 10, 0.78);
+        super("KungPaoChicken", 18, 10, 0.78);
     }
 
     // constructor
     public KungPaoChicken(Drink drink) {
-        super("Dark chocolate", 18, 10, 0.78, drink);
+        super("KungPaoChicken", 18, 10, 0.78, drink);
         this.initIngredientList();
     }
 
@@ -39,7 +39,7 @@ public class KungPaoChicken extends Dinner {
      * @return
      */
     public String getNameWithDrink() {
-        return drink.getDrink() + " DarkChocolate";
+        return drink.getDrink() + " KungPaoChicken";
     }
 
     /**
@@ -49,7 +49,7 @@ public class KungPaoChicken extends Dinner {
      */
     @Override
     public String toString() {
-        return "subclass : DarkChocolate";
+        return "subclass : KungPaoChicken";
     }
 
     @Override

@@ -22,7 +22,7 @@ public class MatchaIceCream extends Dessert {
      * @param shape
      */
     public MatchaIceCream(Shape shape) {
-        super("Chocolate Cookie", 6, 7);
+        super("MatchaIceCream", 6, 7);
         this.shape = shape;
         this.initIngredientList();
     }
@@ -61,7 +61,7 @@ public class MatchaIceCream extends Dessert {
      */
     @Override
     public String toString() {
-        return "ChocolateCookie";
+        return "MatchaIceCream";
     }
 
 }

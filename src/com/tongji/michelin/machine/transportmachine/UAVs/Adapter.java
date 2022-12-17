@@ -46,7 +46,7 @@ public class Adapter implements UAV {
 
     @Override
     public void navigate() {
-        System.out.println("UAV " + this.mID + " is navigating to destination.\n");
+        System.out.println("FDR " + this.mID + " is navigating to destination.\n");
     }
 
 
