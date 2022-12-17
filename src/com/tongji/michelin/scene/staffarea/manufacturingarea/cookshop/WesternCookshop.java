@@ -55,6 +55,6 @@ public class WesternCookshop extends CookShop {
 
     @Override
     public String toString() {
-        return SceneNameConst.WHITE_WORKSHOP;
+        return SceneNameConst.WESTERN_COOKSHOP;
     }
 }

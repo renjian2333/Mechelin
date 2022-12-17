@@ -42,8 +42,8 @@ public class FacadeTest {
         List<BuffetRoom> buffetRoomList = new ArrayList<BuffetRoom>();
         BuffetRoom buffetRoom1 = new BuffetRoom("area3", 100, 100, 100);
         BuffetRoom buffetRoom2 = new BuffetRoom("area4", 100, 100, 100);
-        buffetRoom1.setExpRoomNumber(1);
-        buffetRoom2.setExpRoomNumber(2);
+        buffetRoom1.setBuffetRoomNumber(1);
+        buffetRoom2.setBuffetRoomNumber(2);
         buffetRoomList.add(buffetRoom1);
         buffetRoomList.add(buffetRoom2);
 

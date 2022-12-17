@@ -25,9 +25,9 @@ public class SceneNameConst {
 
     public static final String WORKSHOP = "workshop";
 
-    public static final String DARK_WORKSHOP = "dark workshop";
+    public static final String CHINESE_COOKSHOP = "chinese cookshop";
 
-    public static final String WHITE_WORKSHOP = "white workshop";
+    public static final String WESTERN_COOKSHOP = "Western cookShop";
 
     public static final String WAREHOUSE = "warehouse";
 

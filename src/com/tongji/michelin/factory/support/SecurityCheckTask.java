@@ -40,8 +40,8 @@ public class SecurityCheckTask {
         }
         System.out.println("其次进行实践区的例行巡逻检查……");
         for (BuffetRoom item : ExpRooms) {
-            System.out.println("开始巡逻第" + item.getExpRoomNumber() + "号实践区。");
-            System.out.println("第" + item.getExpRoomNumber() + "号实践区巡逻完毕。\n");
+            System.out.println("开始巡逻第" + item.getBuffetRoomNumber() + "号实践区。");
+            System.out.println("第" + item.getBuffetRoomNumber() + "号实践区巡逻完毕。\n");
         }
         RoomChecked = true;
     }

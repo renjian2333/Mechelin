@@ -55,6 +55,6 @@ public class ChineseCookshop extends CookShop {
 
     @Override
     public String toString() {
-        return SceneNameConst.DARK_WORKSHOP;
+        return SceneNameConst.CHINESE_COOKSHOP;
     }
 }

@@ -11,7 +11,7 @@ import java.util.Scanner;
  * @project chocolateFactory
  * @classname NullObjectTest
  * @description Test for null object pattern
- * @date 2020/11/24 18:19
+ * @date 2022/11/24 18:19
  */
 public class NullObjectTest {
 

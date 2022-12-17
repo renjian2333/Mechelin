@@ -42,9 +42,9 @@ public class COWTest {
         System.out.println(
                 "HandmadeToolFactory : getDefaultHandmadeTool() : Get default instance of HandmadeTool.");
         System.out.println(
-                "ExperienceRoom : getTool() : Get instance of HandmadeTool in this ExperienceRoom.");
+                "BuffetRoom : getTool() : Get instance of HandmadeTool in this ExperienceRoom.");
         System.out.println(
-                "ExperienceRoom: setToolDescription(description: String): Set the description of the tool.");
+                "BuffetRoom: setToolDescription(description: String): Set the description of the tool.");
         System.out.println("");
 
         BuffetRoom[] buffetRooms = new BuffetRoom[2];

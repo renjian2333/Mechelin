@@ -19,16 +19,16 @@ public class ValueObjectTest {
     public static void main(String[] args) {
         System.out.println("------------------------------------ [Value Object] Test ------------------------------------");
         System.out.println("");
-        System.out.println("MilkChocolate : equals(MilkChocolate milkChocolate) : Determine if two milk chocolate object values are equal");
+        System.out.println("WesternDish : equals(WesternDish westernDish) : Determine if two westernDish object values are equal");
         System.out.println("");
 
-        System.out.println("Create a new MilkChocMachine producing milk chocolate in normal flavor and give control of it to a controller...");
+        System.out.println("Create a new WesternDishMachine producing westernDish in normal flavor and give control of it to a controller...");
         WesternDishController normalWesternDishController = new WesternDishController(new MeatWesternDishMachine());
-        System.out.println("Let normalMilkChocMachine start producing...");
+        System.out.println("Let normalWesternDishMachine start producing...");
         normalWesternDishController.startProduce();
         System.out.println("Get product1 ...");
         WesternDish westernDish1 = normalWesternDishController.getWesternDish();
-        System.out.println("MilkChocolate product1 is in normal flavor...");
+        System.out.println("WesternDish product1 is in normal flavor...");
         WesternDish westernDish2 = null;
 
         Scanner input = new Scanner(System.in);
@@ -38,11 +38,11 @@ public class ValueObjectTest {
         do {
             System.out.println("");
             System.out.println("******************************** TIPS **********************************");
-            System.out.println("***        We have create a milk chocolate in normal flavor!         ***");
+            System.out.println("***        We have create a westernDish in normal flavor!         ***");
             System.out.println("***                                                                  ***");
             System.out.println("***       1. Input 1 to test if two products are equal in value      ***");
-            System.out.println("*** 2. Input 2 to create a milk chocolate(product2) in normal flavor ***");
-            System.out.println("*** 3. Input 3 to create a milk chocolate(product2) in thick flavor  ***");
+            System.out.println("*** 2. Input 2 to create a westernDish(product2) in normal flavor ***");
+            System.out.println("*** 3. Input 3 to create a westernDish(product2) in thick flavor  ***");
             System.out.println("***                      4. Input 0 to exit                          ***");
             System.out.println("************************************************************************");
             System.out.println("");

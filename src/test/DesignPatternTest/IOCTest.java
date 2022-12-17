@@ -34,8 +34,8 @@ public class IOCTest {
         System.out.println("***                         1. Init Office                          ***");
         System.out.println("***                         2. Init DiningRoom                      ***");
         System.out.println("***                         3. Init Warehouse                       ***");
-        System.out.println("***                         4. Init DarkWorkshop                    ***");
-        System.out.println("***                         5. Init WhiteWorkshop                   ***");
+        System.out.println("***                         4. Init ChineseCookshop                    ***");
+        System.out.println("***                         5. Init WestenCookShop                   ***");
         System.out.println("***                                                                 ***");
         System.out.println("***                                                                 ***");
         System.out.println("***You can select different scenarios, and the workers in the       ***");
@@ -73,7 +73,7 @@ public class IOCTest {
                     break;
                 }
                 case 3: {
-                    System.out.println("IOC Pattern: creating warehouse Walker will implicitly create WarehouseWorker：");
+                    System.out.println("IOC Pattern: creating warehouse will implicitly create WarehouseWorker：");
                     Warehouse warehouse = new Warehouse();
                     Manager.getWarehouseManager().hireWorker("mark",  Person.Sex.FEMALE, 22, 7000, warehouse);
                     warehouse.displayAllStaffs();
@@ -81,7 +81,7 @@ public class IOCTest {
                     break;
                 }
                 case 4: {
-                    System.out.println("IOC Pattern: creating DarkWorkshop Walker will implicitly create DarkWorkshopWorker：");
+                    System.out.println("IOC Pattern: creating ChineseCookshop will implicitly create ChineseCookshopWorker：");
                     ChineseCookshop chineseCookshop = new ChineseCookshop();
                     Manager.getWorkShopManager().hireWorker("mark",  Person.Sex.MALE, 22, 7000, chineseCookshop);
                     chineseCookshop.displayAllStaffs();
@@ -89,7 +89,7 @@ public class IOCTest {
                     break;
                 }
                 case 5: {
-                    System.out.println("IOC Pattern: creating WhiteWorkshop Walker will implicitly create WhiteWorkshopWorker：");
+                    System.out.println("IOC Pattern: creating WesternCookshop will implicitly create WesternCookWorker：");
                     WesternCookshop westernCookShop = new WesternCookshop();
                     Manager.getWorkShopManager().hireWorker("mark", Person.Sex.FEMALE, 22,  7000, westernCookShop);
                     westernCookShop.displayAllStaffs();

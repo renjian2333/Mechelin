@@ -19,7 +19,7 @@ public class MultitonTest {
         System.out.println("");
         System.out.println("Manager : getDiningRoomManager() : Get dining room's manager which is single.");
         System.out.println("Manager : getOfficeManager() : Get office's manager which is single.");
-        System.out.println("Manager : getWorkShopManager() : Get workshop's manager which is single.");
+        System.out.println("Manager : getCookshopManager() : Get workshop's manager which is single.");
         System.out.println("Manager : getWareHouseManager() : Get warehouse's manager which is single.");
         System.out.println("");
 
@@ -27,7 +27,7 @@ public class MultitonTest {
         System.out.println("********************************* Multiton Test ************************************");
         System.out.println("***                 1. get instance of dining room's manager                     ***");
         System.out.println("***                 2. get instance of office's manager                          ***");
-        System.out.println("***                 3. get instance of workshop's manager                        ***");
+        System.out.println("***                 3. get instance of cookshop's manager                        ***");
         System.out.println("***                 4. get instance of warehouse's manager                       ***");
         System.out.println("************************************************************************************");
         System.out.println("");
@@ -70,13 +70,13 @@ public class MultitonTest {
                 }
                 case 3: {
                     System.out.println("Let's get an instance of workshop's manager for the first time: ");
-                    Manager workshopManager1 = Manager.getWorkShopManager();
+                    Manager cookshopManager1 = Manager.getWorkShopManager();
                     System.out.println("");
-                    System.out.println("Get an instance of workshop's manager again: ");
-                    Manager workshopManager2 = Manager.getWorkShopManager();
+                    System.out.println("Get an instance of cookshop's manager again: ");
+                    Manager cookshopManager2 = Manager.getWorkShopManager();
                     System.out.println("Let's check whether the two instances are the same:");
-                    System.out.println("Print the result of \"workshopManager1 == workshopManager2 \", which should be true.");
-                    System.out.println(workshopManager1 == workshopManager2);
+                    System.out.println("Print the result of \"cookManager1 == cookshopManager2 \", which should be true.");
+                    System.out.println(cookshopManager1 == cookshopManager2);
                     break;
                 }
                 case 4: {

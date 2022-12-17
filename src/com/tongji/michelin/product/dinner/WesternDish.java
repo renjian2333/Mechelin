@@ -12,7 +12,7 @@ import java.io.Serializable;
  * @project chocolateFactory
  * @classname MilkChocolate
  * @description this is milk chocolate.
- * @date 2020/11/8 15:16
+ * @date 2022/11/8 15:16
  */
 public class WesternDish extends Dinner implements Serializable, Cloneable {
 

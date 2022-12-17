@@ -21,7 +21,7 @@ public class BuffetRoom extends PublicArea {
      *
      * @modified by Ray
      **/
-    private int expRoomNumber;
+    private int buffetRoomNumber;
 
     /**
      * constructor of ExperienceRoom
@@ -63,12 +63,12 @@ public class BuffetRoom extends PublicArea {
         tool.setDescription(description);
     }
 
-    public int getExpRoomNumber() {
-        return expRoomNumber;
+    public int getBuffetRoomNumber() {
+        return buffetRoomNumber;
     }
 
-    public void setExpRoomNumber(int number) {
-        expRoomNumber = number;
+    public void setBuffetRoomNumber(int number) {
+        buffetRoomNumber = number;
     }
 
     @Override
