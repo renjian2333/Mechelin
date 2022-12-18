@@ -5,11 +5,9 @@ import com.tongji.michelin.person.staff.Manager;
 import java.util.Scanner;
 
 /**
- * @author Zheng
- * @project chocolateFactory
+ * @author yfh
  * @classname MultitonTest
  * @description MultitonTest
- * @date 2020/11/22 15:49
  */
 public class MultitonTest {
 

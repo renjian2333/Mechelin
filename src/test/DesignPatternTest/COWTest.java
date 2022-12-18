@@ -6,11 +6,9 @@ import com.tongji.michelin.supplement.handmadetool.HandmadeToolFactory;
 import java.util.Scanner;
 
 /**
- * @project chocolateFactory
  * @classname COWTest
  * @description Test for COW
- * @author Ngae Zeh-ghau
- * @date 2020/11/27 12:55
+ * @author yfh
  */
 public class COWTest {
     public static void main(String[] args) {

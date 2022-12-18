@@ -9,11 +9,9 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * @author Zheng
- * @project chocolateFactory
+ * @author lxk
  * @classname ConverterTest
  * @description ConverterTest
- * @date 2020/11/26 15:02
  */
 public class ConverterTest {
     public static void main(String[] args) {

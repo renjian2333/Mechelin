@@ -3,11 +3,7 @@ package com.tongji.michelin.product.dessert;
 import com.tongji.michelin.rawmaterial.foodmaterial.*;
 
 /**
- * @author Kerr
- * @project chocolateFactory
- * @classname ChocolateCookie
- * @description this is chocolate cookie, cookie's feature is its shape. Here I've defined a enum called Shape.
- * @date 2020/11/8 15:22
+ * @classname MatchaIceCream
  */
 public class MatchaIceCream extends Dessert {
 
@@ -36,9 +32,6 @@ public MatchaIceCream(){
 
     }
 
-    /**
-     * initialize the ingredient list of chocolate cookie
-     */
     @Override
     protected void initIngredientList() {
         super.ingredientList.add(new Butter());
@@ -49,9 +42,6 @@ public MatchaIceCream(){
         super.ingredientList.add(new Water());
     }
 
-    /**
-     * @return the shape of cookie
-     */
     public Shape getShape() {
         return this.shape;
     }

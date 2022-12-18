@@ -3,15 +3,12 @@ package com.tongji.michelin.supplement.receipt;
 import com.tongji.michelin.supplement.receipt.provider.Provider;
 
 /**
- * @author Zeus Lee
- * @project chocolateFactory
  * @classname AbstractReceipt
  * @description
  *
  * immutable patter，
  *
  * The base class of the receipt, which is applicable to specifying the public attributes and fields of the receipt.
- * @date 2020/11/25 8:58
  */
 public abstract class AbstractReceipt {
 

@@ -2,11 +2,8 @@ package com.tongji.michelin.person.filterchain.message;
 
 
 /**
- * @author Zeus Lee
- * @project chocolateFactory
  * @classname ApplicationMessage
  * @description ApplicationMessage
- * @date 2020/11/15 18:01
  */
 public class ApplicationMessage extends Message {
 

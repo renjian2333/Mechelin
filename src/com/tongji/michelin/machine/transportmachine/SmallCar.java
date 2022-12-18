@@ -4,11 +4,8 @@ import com.tongji.michelin.machine.transportmachine.TransportMachine;
 import com.tongji.michelin.product.Product;
 
 /**
- * @author Yuan.Cai
- * @project chocolateFactory
  * @classname SmallCar
  * @description Machine for transporting a small quantity of items.
- * @date 2020/11/8 19:34
  */
 public class SmallCar extends TransportMachine {
     public SmallCar(String type, String machineNum) {

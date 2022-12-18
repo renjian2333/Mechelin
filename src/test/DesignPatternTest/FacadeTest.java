@@ -13,11 +13,9 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * @author Miracle Ray
- * @project chocolateFactory
+ * @author yfh
  * @classname FacadeTest
  * @description test for Facade
- * @date 2020/11/23 14：10
  */
 public class FacadeTest {
     static public void facadeTest() {

@@ -5,11 +5,8 @@ import com.tongji.michelin.person.staff.Staff;
 import java.util.List;
 
 /**
- * @project chocolateFactory
- * @author: Miracle Ray
  * @classname StaffDao
  * @description: This is basic function of DAO (Data Access Object).
- * @date: 2020/11/27 10:30
  */
 public interface StaffDao {
     /**

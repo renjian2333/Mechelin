@@ -10,11 +10,8 @@ import java.util.List;
 import java.util.Formatter;
 
 /**
- * @project chocolateFactory
- * @author: Miracle Ray
  * @classname StaffDaoImpl
  * @description: Dao Pattern to implement function of StaffDao.
- * @date: 2020/11/27 11:35
  */
 public class StaffDaoImpl implements StaffDao {
 

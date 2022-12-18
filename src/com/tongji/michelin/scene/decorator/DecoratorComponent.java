@@ -1,11 +1,8 @@
 package com.tongji.michelin.scene.decorator;
 
 /**
- * @author TT
- * @project chocolateFactory
  * @classname DecoratorComponent
  * @description this is an interface implements getDescription getBuildCost
- * @date 2020/11/28 8:35
  */
 
 public interface DecoratorComponent {

@@ -11,12 +11,10 @@ import com.tongji.michelin.scene.staffarea.manufacturingarea.cookshop.WesternCoo
 import java.util.Scanner;
 
 /**
- * @author Y.C.Young, Zeus Lee
- * @project chocolateFactory
+ * @author yfh
  * @classname IOCPatternTest
  * @description By passing different staffareas, we create different workers in our workeraddingcontroller
  * and inject them into our staffarea class to realize our IOC (dependency flipping) function
- * @date 2020/11/22 22:07
  */
 public class IOCTest {
 

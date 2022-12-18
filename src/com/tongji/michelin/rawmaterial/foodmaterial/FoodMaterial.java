@@ -5,11 +5,8 @@ import com.tongji.michelin.rawmaterial.RawMaterial;
 import java.util.LinkedList;
 
 /**
- * @author Ngae Zeh-ghau
- * @project chocolateFactory
  * @classname FoodMaterial
  * @description food raw material, which can expire
- * @date 2020-11-07 16:12:47
  */
 public abstract class FoodMaterial extends RawMaterial implements Cloneable {
 

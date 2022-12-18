@@ -3,11 +3,7 @@ package com.tongji.michelin.machine.processmachine.productmachine.westerndishmac
 import com.tongji.michelin.product.dinner.WesternDish;
 
 /**
- * @author Yuan.Cai
- * @project chocolateFactory
- * @classname MilkChocController
- * @description This machine controls the production process of milkChocMachine.
- * @date 2020/11/14 18:07
+ * @classname WesternDishController
  */
 public class WesternDishController {
     public WesternDishMachine westernDishMachine;
@@ -40,7 +36,7 @@ public class WesternDishController {
     /**
      * return the product
      *
-     * @return a MilkChocolate
+     * @return a WesternDish
      */
     public WesternDish getWesternDish() {
         return westernDishMachine.getWesternDish();

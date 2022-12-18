@@ -17,36 +17,29 @@ import com.tongji.michelin.scene.staffarea.manufacturingarea.cookshop.ChineseCoo
 import com.tongji.michelin.scene.staffarea.manufacturingarea.cookshop.WesternCookshop;
 
 /**
- * @author Brian.Z, Y.C.Young
- * @project chocolateFactory
- * @classname CharlieFactory
- * @description the factory class (including attributes and methods for visitor pattern)
- * @date 2020/11/7 17:50
+ * @classname CaoanRestaurant
  */
 public class CaoanRestaurant {
-
-    /**
-     * the only one instance of the factory
-     */
+    
     private static CaoanRestaurant instance = null;
 
     /**
-     * scene structure containing all scenes in the factory
+     * scene structure containing all scenes in the restaurant
      */
     private SceneStructure scenes;
 
     /**
-     * flag showing whether the factory is to clean
+     * flag showing whether the restaurant is to clean
      */
     private boolean dirtyFlag = false;
 
     /**
-     * flag showing whether the factory is to maintenance
+     * flag showing whether the restaurant is to maintenance
      */
     private boolean agingFlag = false;
 
     /**
-     * constructor of the factory
+     * constructor of the restaurant
      */
     private CaoanRestaurant() {
         scenes = new SceneStructure();
@@ -65,7 +58,7 @@ public class CaoanRestaurant {
     /**
      * using Singleton pattern to get or create the only one instance of the class
      *
-     * @return the only one instance of the factory class
+     * @return the only one instance of the restaurant class
      */
     public static CaoanRestaurant getCaoanRestaurant() {
         if (instance == null) {
@@ -75,9 +68,9 @@ public class CaoanRestaurant {
     }
 
     /**
-     * add a scene to the factory
+     * add a scene to the restaurant
      *
-     * @param scene the scene to be added to the factory
+     * @param scene the scene to be added to the restaurant
      */
     public void addScene(Scene scene) {
         scenes.addScene(scene);

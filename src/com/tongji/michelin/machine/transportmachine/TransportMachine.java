@@ -4,12 +4,9 @@ import com.tongji.michelin.machine.Machine;
 import com.tongji.michelin.product.Product;
 
 /**
- * @author Yuan.Cai
- * @project chocolateFactory
  * @classname TransportMachine
  * @description TODO Design Pattern --- Template Method
  * Inherited from Machine, this class is the abstract class of all the transport machines.
- * @date 2020/11/8 14:03
  */
 public abstract class TransportMachine extends Machine {
 

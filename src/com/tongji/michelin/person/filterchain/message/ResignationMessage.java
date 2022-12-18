@@ -1,11 +1,8 @@
 package com.tongji.michelin.person.filterchain.message;
 
 /**
- * @author Zeus Lee
- * @project chocolateFactory
  * @classname ResignationMessage
  * @description ResignationMessage
- * @date 2020/11/15 18:01
  */
 public class ResignationMessage extends Message {
 

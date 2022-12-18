@@ -4,11 +4,8 @@ import com.tongji.michelin.person.Person;
 import com.tongji.michelin.person.filterchain.message.Message;
 
 /**
- * @author Zeus Lee
- * @project chocolateFactory
  * @classname FilterManager
  * @description Our filter chain manager is mainly used to operate our processing objects, processing information, etc.
- * @date 2020/11/15 18:08
  */
 public class FilterManager {
 

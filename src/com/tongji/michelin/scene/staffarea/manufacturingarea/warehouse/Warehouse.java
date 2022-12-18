@@ -9,11 +9,8 @@ import com.tongji.michelin.scene.staffarea.manufacturingarea.ManufacturingArea;
 import java.util.HashMap;
 
 /**
- * @author Y.C.Young
- * @project chocolateFactory
  * @classname Warehouse
  * @description Warehouse for storing raw material and production
- * @date 2020/11/9 20:04
  */
 public class Warehouse extends ManufacturingArea {
 

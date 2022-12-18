@@ -1,14 +1,11 @@
 package com.tongji.michelin.product.dessert.dessertmix;
 
 /**
- * @author Ngae Zeh-ghau
- * @project chocolateFactory
  * @classname NewInstanceFailureException
  * @description Exception thrown when MixChocolateFactory.getChocolate() failed to create an
  * instance of extended Chocolate. In normal cases, this exception SHOULD NEVER BE
  * THROWN, as the param of MixChocolateFactory.getChocolate() is required to be one of
  * the extended classes of Chocolate and they all have trival ctor with no param.
- * @date 2020/11/15 21:28
  */
 public class NewInstanceFailureException extends Exception {
 // fields

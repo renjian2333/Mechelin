@@ -1,11 +1,8 @@
 package com.tongji.michelin.scene.decorator;
 
 /**
- * @author TT
- * @project chocolateFactory
  * @classname FireHydrant
  * @description this is a residence with fire hydrant
- * @date 2020/11/18 15:34
  */
 public class FireHydrant extends ResidenceDecorator {
 

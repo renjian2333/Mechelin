@@ -6,11 +6,8 @@ import com.tongji.michelin.person.staff.worker.utilityworker.UtilityWorker;
 import com.tongji.michelin.scene.SceneNameConst;
 
 /**
- * @author Y.C.Young
- * @project chocolateFactory
  * @classname DiningRoom
  * @description Used for staffs to have breakfast, lunch or supper.
- * @date 2020/11/9 20:00
  */
 public class DiningRoom extends StaffArea {
 

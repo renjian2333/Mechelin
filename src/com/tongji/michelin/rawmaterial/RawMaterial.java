@@ -3,11 +3,8 @@ package com.tongji.michelin.rawmaterial;
 import java.util.LinkedList;
 
 /**
- * @author Ngae Zeh-ghau
- * @project chocolateFactory
  * @classname RawMaterial
  * @description ROOT CLASS RawMaterial
- * @date 2020-11-07 16:12:41
  */
 public abstract class RawMaterial {
 

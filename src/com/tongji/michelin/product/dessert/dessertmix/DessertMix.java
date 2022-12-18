@@ -11,20 +11,17 @@ import com.tongji.michelin.rawmaterial.packagematerial.Box;
 import com.tongji.michelin.product.Product;
 
 /**
- * @author Ngae Zeh-ghau
- * @project chocolateFactory
- * @classname ChocolateMix
- * @description Mixed chocolate pack. This is a part of Flyweight Pattern.
- * @date 2020/11/23 23:40
+ * @classname DessertMix
+ * @description Mixed Dessert. This is a part of Flyweight Pattern
  */
 public class DessertMix extends Dessert {
 // fields
     private final Dessert[] desserts;
 
     /**
-     * ctor of ChocolateMix
+     * ctor of DessertMix
      *
-     * @param typeList List of extended class of Chocolate. Eg: MilkChocolate.class
+     * @param typeList List of extended class of Dessert. Eg: ChocolateCake.class
      * @throws NewInstanceFailureException Thrown when failed to create an instance.
      */
     public DessertMix(List<Class<? extends Dessert>> typeList)
@@ -49,10 +46,10 @@ public class DessertMix extends Dessert {
     }
 
     /**
-     * Get chocolate instance at index.
+     * Get Dessert instance at index.
      *
      * @param index index of instance
-     * @return chocolate instance
+     * @return Dessert instance
      */
     public Dessert at(int index) {
         if (index >= 0 && index < desserts.length) {

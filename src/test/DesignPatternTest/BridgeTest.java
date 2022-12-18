@@ -8,11 +8,9 @@ import com.tongji.michelin.product.dinner.*;
 import java.util.Scanner;
 
 /**
- * @author Miracle Ray
- * @project chocolateFactory
+ * @author yfh
  * @classname BridgeTest
  * @description test for Bridge
- * @date 2020/11/23 13：50
  */
 public class BridgeTest {
     static public void bridgeTest() {

@@ -8,7 +8,11 @@ import com.tongji.michelin.person.staff.worker.CookShopWorker;
 import com.tongji.michelin.person.staff.worker.Worker;
 
 import java.util.ArrayList;
-
+/**
+ * @author zqr
+ * @classname EatingPlace
+ * @description The eating place
+ */
 public class EatingPlace {
     protected String code;
     protected OrderMachine orderMachine = null;

@@ -6,11 +6,8 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 
 /**
- * @author Zheng
- * @project chocolateFactory
  * @classname converter
  * @description abstract base class converter
- * @date 2020/11/26 14:23
  */
 public abstract class Converter<T, E> {
     private final Function<T, E> fromDto;

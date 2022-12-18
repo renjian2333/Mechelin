@@ -9,11 +9,9 @@ import java.util.Random;
 import java.util.Scanner;
 
 /**
- * @author Yuan.Cai
- * @project chocolateFactory
+ * @author lxk
  * @classname ValueObjectTest
  * @description Test for Design Pattern --- Value Object
- * @date 2020/11/24 23:02
  */
 public class ValueObjectTest {
     public static void main(String[] args) {

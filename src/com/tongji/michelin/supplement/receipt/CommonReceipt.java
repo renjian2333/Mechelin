@@ -4,8 +4,6 @@ package com.tongji.michelin.supplement.receipt;
 import com.tongji.michelin.supplement.receipt.provider.CommonProvider;
 
 /**
- * @author Zeus Lee
- * @project chocolateFactory
  * @classname CommonReceipt
  * @description
  *
@@ -13,7 +11,6 @@ import com.tongji.michelin.supplement.receipt.provider.CommonProvider;
  *
  * once determined, is immutable, so use final for a modification.
  *
- * @date 2020/11/25 9:25
  */
 public final class CommonReceipt extends AbstractReceipt {
 

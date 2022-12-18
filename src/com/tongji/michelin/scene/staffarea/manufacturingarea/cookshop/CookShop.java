@@ -7,11 +7,8 @@ import com.tongji.michelin.person.staff.worker.utilityworker.UtilityWorker;
 import com.tongji.michelin.scene.staffarea.manufacturingarea.ManufacturingArea;
 
 /**
- * @author Y.C.Young Yuan.Cai
- * @project chocolateFactory
- * @classname Workshop
- * @description Workshop where the production is produced
- * @date 2020/11/9 20:05
+ * @classname CookShop
+ * @description CookShop where the production is produced
  */
 public class CookShop extends ManufacturingArea {
 
@@ -35,11 +32,7 @@ public class CookShop extends ManufacturingArea {
         return "kitchen";
     }
 
-    /**
-     * Visitor Pattern: accept a utility worker to maintenance the scene
-     *
-     * @param worker the utility worker
-     */
+
     @Override
     public void accept(UtilityWorker worker) {
         worker.visit(this);

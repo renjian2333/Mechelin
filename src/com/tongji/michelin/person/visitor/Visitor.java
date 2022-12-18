@@ -7,11 +7,8 @@ import com.tongji.michelin.scene.publicarea.PublicArea;
 
 
 /**
- * @author Brian.Z
- * @project chocolateFactory
  * @classname Visitor
  * @description visitors of the chocolate factory, who can visit the exhibition hall and the exploration hall
- * @date 2020/11/7 18:26
  */
 public class Visitor extends Person {
 

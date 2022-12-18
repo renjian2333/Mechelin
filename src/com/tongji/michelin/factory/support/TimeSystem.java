@@ -7,11 +7,8 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author Y.C.Young
- * @project chocolateFactory
  * @classname TimeSystem
  * @description time system of chocolate factory
- * @date 2020/11/24 21:55
  */
 public class TimeSystem {
 

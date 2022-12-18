@@ -6,11 +6,9 @@ import com.tongji.michelin.scene.decorator.DecoratorComponent;
 import java.util.Scanner;
 
 /**
- * @author TT
- * @project chocolateFactory
+ * @author lxk
  * @classname DecoratorTest
  * @description This is decorator test
- * @date 2022/11/24 19:55
  */
 public class DecoratorTest {
     public static void main(String[] args) {

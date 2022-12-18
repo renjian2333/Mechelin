@@ -1,11 +1,7 @@
 package com.tongji.michelin.machine.processmachine.productmachine.westerndishmachine;
 
 /**
- * @author Yuan.Cai
- * @project chocolateFactory
- * @classname ConcreteMilkMachine
- * @description This machine produces milk chocolate with CocoaBean=200, Sugar=10, Milk=1.
- * @date 2020/11/14 17:53
+ * @classname MeatWesternDishMachine
  */
 public class MeatWesternDishMachine extends WesternDishMachine {
     public MeatWesternDishMachine() {

@@ -6,11 +6,8 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
- * @author Brian.Z
- * @project chocolateFactory
  * @classname MainTest
  * @description Main class for the test of design patterns
- * @date 2020/11/19 0:43
  */
 public class MainTest {
 

@@ -7,11 +7,8 @@ import com.tongji.michelin.machine.Machine;
 import java.util.List;
 
 /**
- * @project chocolateFactory
- * @author: Miracle Ray
  * @classname SecurityCheckTask
  * @description: SecurityCheckTaskList used for Facade
- * @date: 2020/11/18 16:43
  */
 
 public class SecurityCheckTask {

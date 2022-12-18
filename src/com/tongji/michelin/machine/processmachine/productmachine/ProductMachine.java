@@ -4,11 +4,8 @@ import com.tongji.michelin.machine.processmachine.ProcessMachine;
 import com.tongji.michelin.product.Product;
 
 /**
- * @author Yuan.Cai
- * @project chocolateFactory
  * @classname ProductMachine
  * @description Inherited from ProcessMachine, this class is the abstract class of all the product machines.
- * @date 2020/11/8 19:25
  */
 public abstract class ProductMachine extends ProcessMachine {
     public ProductMachine(String type, String machineNum, double lifeYear, double lossCoefficient, int maxCapacity) {

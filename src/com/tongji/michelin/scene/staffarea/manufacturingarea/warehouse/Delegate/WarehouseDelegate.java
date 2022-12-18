@@ -4,12 +4,9 @@ import com.tongji.michelin.rawmaterial.RawMaterial;
 import com.tongji.michelin.scene.staffarea.manufacturingarea.warehouse.Warehouse;
 
 /**
- * @author Brian.Z
- * @project chocolateFactory
  * @classname WarehouseDelegate
  * @description Used for design pattern --- Business Delegate
  * Clients can access service of warehouse by this delegate class
- * @date 2020/11/17 21:08
  */
 public class WarehouseDelegate {
 

@@ -1,11 +1,8 @@
 package com.tongji.michelin.rawmaterial.foodmaterial;
 
 /**
- * @author Ngae Zeh-ghau
- * @project chocolateFactory
  * @classname Alcohol
  * @description alcohol the food raw material
- * @date 2020-11-07 16:22:43
  */
 public class Alcohol extends FoodMaterial {
     /**

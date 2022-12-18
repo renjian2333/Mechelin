@@ -1,11 +1,8 @@
 package com.tongji.michelin.product.memento;
 
 /**
- * @author lsy Brian.Z
- * @project chocolateFactory
  * @classname ProductMemento
  * @description ProductMemento in ProductMemento pattern
- * @date 2020/11/19 23:51
  */
 public class ProductMemento {
 // fields

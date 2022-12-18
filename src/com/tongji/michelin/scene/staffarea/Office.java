@@ -7,11 +7,8 @@ import com.tongji.michelin.scene.SceneNameConst;
 
 
 /**
- * @author Y.C.Young
- * @project chocolateFactory
  * @classname Office
  * @description As One kind of staff area, it represents office building.
- * @date 2020/11/9 20:04
  */
 public class Office extends StaffArea {
 

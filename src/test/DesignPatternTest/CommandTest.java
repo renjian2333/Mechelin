@@ -7,11 +7,9 @@ import com.tongji.michelin.person.staff.worker.CookShopWorker;
 import java.util.Scanner;
 
 /**
- * @author Zheng
- * @project chocolateFactory
+ * @author
  * @classname CommandTest
  * @description test for command pattern
- * @date 2020/11/21 21:32
  */
 public class CommandTest {
 
@@ -50,7 +48,7 @@ public class CommandTest {
                     flag = false;
                     break;
                 case 1: {
-                    worker.produceDarkChocolate();
+                    worker.produceKungPaoChicken();
                     break;
                 }
                 case 2: {

@@ -1,11 +1,8 @@
 package com.tongji.michelin.machine.centralcontrolcomputer;
 
 /**
- * @author Ngae Zeh-ghau
- * @project chocolateFactory
  * @classname CentralControlComputor
  * @description Central control computer. This is a part of IoC pattern.
- * @date 2020/11/20 22:05
  */
 public class CentralControlComputer {
 

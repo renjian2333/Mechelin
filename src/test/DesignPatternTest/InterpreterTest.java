@@ -6,11 +6,9 @@ import com.tongji.michelin.person.visitor.Visitor;
 import java.util.Scanner;
 
 /**
- * @author Kerr
- * @project chocolateFactory
+ * @author yfh
  * @classname InterpreterTest
  * @description test for interpreter pattern
- * @date 2020/11/27 00:23
  */
 public class InterpreterTest {
     public static void main(String[] args) {

@@ -2,11 +2,8 @@ package com.tongji.michelin.rawmaterial.foodmaterial;
 
 
 /**
- * @author Ngae Zeh-ghau
- * @project chocolateFactory
  * @classname Egg
  * @description egg the food raw material
- * @date 2020-11-07 16:24:56
  */
 public class Egg extends FoodMaterial {
     /**

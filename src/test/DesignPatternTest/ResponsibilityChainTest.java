@@ -5,11 +5,9 @@ import com.tongji.michelin.machine.processmachine.wrappermachine.WrapperMachine;
 import java.util.Scanner;
 
 /**
- * @author Kerr
- * @project chocolateFactory
+ * @author yfh
  * @classname ResponsibilityChainTest
  * @description test for responsibility chain pattern
- * @date 2020/11/26 00:23
  */
 public class ResponsibilityChainTest {
     public static void main(String[] args) {

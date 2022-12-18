@@ -3,11 +3,8 @@ package com.tongji.michelin.product.dessert;
 import com.tongji.michelin.rawmaterial.foodmaterial.*;
 
 /**
- * @author Kerr
- * @project chocolateFactory
  * @classname ChocolateWafer
  * @description this is chocolate wafer
- * @date 2020/11/8 15:27
  */
 public class ChocolateWafer extends Dessert {
 

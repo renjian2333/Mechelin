@@ -1,11 +1,8 @@
 package com.tongji.michelin.supplement.monostate;
 
 /**
- * @author TT
- * @project chocolateFactory
  * @classname Screen
  * @description This represents the screen of guard
- * @date 2020/11/26 15:08
  */
 public class Screen {
     /**

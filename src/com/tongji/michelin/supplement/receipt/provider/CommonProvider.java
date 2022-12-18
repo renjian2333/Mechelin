@@ -1,11 +1,8 @@
 package com.tongji.michelin.supplement.receipt.provider;
 
 /**
- * @author Zeus Lee
- * @project chocolateFactory
  * @classname TaxProvider
  * @description Provider of Common invoice
- * @date 2020/11/27 17:28
  */
 public class CommonProvider extends Provider {
 

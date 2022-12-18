@@ -2,11 +2,9 @@ package com.tongji.michelin.rawmaterial.foodmaterial;
 
 
 /**
- * @author Ngae Zeh-ghau
  * @project chocolateFactory
  * @classname Sugar
  * @description sugar the food raw material
- * @date 2020-11-07 16:29:18
  */
 public class Sugar extends FoodMaterial {
     /**

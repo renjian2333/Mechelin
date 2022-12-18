@@ -6,11 +6,8 @@ import com.tongji.michelin.product.dessert.Dessert;
 import com.tongji.michelin.product.dinner.*;
 
 /**
- * @author Ngae Zeh-ghau
- * @project chocolateFactory
- * @classname MixChocolateFactory
- * @description Factory class of ChocolateMix. This is a part of Flyweight Pattern.
- * @date 2020/11/16 00:32
+ * @classname MixDessertFactory
+ * @description Factory class of DessertMix. This is a part of Flyweight Pattern.
  */
 public class MixDessertFactory {
 // fields
@@ -18,10 +15,10 @@ public class MixDessertFactory {
             new HashMap<>();
 
     /**
-     * Get an instance of certain subclass of Chocoate or create a new one if absent.
+     * Get an instance of certain subclass of Dessert or create a new one if absent.
      *
-     * @param type Extended class of Chocolate. eg: DarkChocolate.class
-     * @return Instance of (extended) Chocolate.
+     * @param type Extended class of Dessert. eg: DarkDessert.class
+     * @return Instance of (extended) Dessert.
      * @throws NewInstanceFailureException Thrown when failed to create an instance.
      */
     public static Dessert getDessert(Class<? extends Dessert> type)

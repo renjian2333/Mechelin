@@ -2,11 +2,8 @@ package com.tongji.michelin.rawmaterial.foodmaterial;
 
 
 /**
- * @author Ngae Zeh-ghau
- * @project chocolateFactory
  * @classname Butter
  * @description butter the food raw material
- * @date 2020-11-07 16:23:18
  */
 public class Butter extends FoodMaterial {
     /**

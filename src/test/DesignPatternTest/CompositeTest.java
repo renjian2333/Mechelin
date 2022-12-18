@@ -9,11 +9,9 @@ import java.util.Map;
 import java.util.Scanner;
 
 /**
- * @author TT
- * @project chocolateFactory
+ * @author zqr
  * @classname CompositeTest
  * @description test for composite pattern
- * @date 2020/11/24 20:56
  */
 public class CompositeTest {
     private static Map<String, QualityInspectionPanelGroup> qualityInspectionPanelGroups = new HashMap<String, QualityInspectionPanelGroup>();

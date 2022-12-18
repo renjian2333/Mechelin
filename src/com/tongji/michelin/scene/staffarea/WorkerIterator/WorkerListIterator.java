@@ -6,11 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Zheng
- * @project chocolateFactory
  * @classname WorkerListIterator
  * @description iterator of a worker list
- * @date 2020/11/16 9:54
  */
 public class WorkerListIterator implements Iterator {
 

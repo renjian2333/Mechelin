@@ -4,11 +4,8 @@ package com.tongji.michelin.person.visitor.converter;
 import com.tongji.michelin.person.Person;
 
 /**
- * @author Zheng
- * @project chocolateFactory
  * @classname VisitorDto
  * @description VisitorDto Class,which can be converted to Visitor
- * @date 2020/11/26 14:47
  */
 public class VisitorDto {
 

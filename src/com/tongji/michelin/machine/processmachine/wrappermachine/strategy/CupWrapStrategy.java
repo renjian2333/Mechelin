@@ -7,11 +7,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * @author Brian.Z
- * @project chocolateFactory
  * @classname CupWrapStrategy
  * @description wrap a chocolate or a chocolate package with a cup
- * @date 2020/11/13 21:21
  */
 public class CupWrapStrategy extends WrapStrategy {
 

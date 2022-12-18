@@ -5,11 +5,8 @@ import com.tongji.michelin.person.staff.worker.Worker;
 import com.tongji.michelin.scene.staffarea.StaffArea;
 
 /**
- * @author Zheng
- * @project chocolateFactory
- * @classname MaintenanceWorker
+ * @classname FixWorker
  * @description The employees who repair the machine,the Handler of Chain of Responsibility
- * @date 2020/11/14 19:15
  */
 public abstract class FixWorker extends Worker {
 

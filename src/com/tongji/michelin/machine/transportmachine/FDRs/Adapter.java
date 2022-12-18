@@ -4,11 +4,8 @@ import com.tongji.michelin.machine.transportmachine.TransportMachine;
 import com.tongji.michelin.product.Product;
 
 /**
- * @project chocolateFactory
- * @author: Miracle Ray
  * @classname Adapter
  * @description: Adapter Pattern to implement UAV's work function
- * @date: 2020/11/17 16:35
  */
 public class Adapter implements FDR {
     private TransportMachine adaptee;

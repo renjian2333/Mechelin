@@ -8,11 +8,9 @@ import com.tongji.michelin.person.staff.Staff;
 import java.util.Scanner;
 
 /**
- * @author Miracle Ray
- * @project chocolateFactory
+ * @author lxk
  * @classname DaoTest
  * @description test for Dao
- * @date 20224/11/27 12：10
  */
 public class DAOTest {
 

@@ -4,11 +4,8 @@ import com.tongji.michelin.machine.processmachine.productmachine.BasicProductMac
 import com.tongji.michelin.product.dinner.WesternDish;
 
 /**
- * @author Yuan.Cai
- * @project chocolateFactory
- * @classname DarkChocMachine
- * @description This machine produces milk chocolate with different concentrations of components.
- * @date 2020/11/14 10:09
+ * @classname WesternDishMachine
+ * @description This machine WesternDish with different concentrations of components.
  */
 public abstract class WesternDishMachine extends BasicProductMachine {
     protected WesternDish westernDish;

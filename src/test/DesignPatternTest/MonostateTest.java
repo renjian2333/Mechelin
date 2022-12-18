@@ -8,11 +8,9 @@ import java.util.InputMismatchException;
 import java.util.List;
 
 /**
- * @author TT
- * @project chocolateFactory
+ * @author yfh
  * @classname MonostateTest
  * @description test for monostate pattern
- * @date 2020/11/26 15:17
  */
 public class MonostateTest {
 

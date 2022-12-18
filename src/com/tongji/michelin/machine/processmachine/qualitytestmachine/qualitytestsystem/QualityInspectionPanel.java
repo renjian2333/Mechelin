@@ -1,11 +1,8 @@
 package com.tongji.michelin.machine.processmachine.qualitytestmachine.qualitytestsystem;
 
 /**
- * @author TT
- * @project chocolateFactory
  * @classname QualityInspectionPanel
  * @description This is quality inspection panel
- * @date 2020/11/14 18:00
  */
 public class QualityInspectionPanel extends QualityTestSystem {
     /**

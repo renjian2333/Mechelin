@@ -2,11 +2,8 @@ package com.tongji.michelin.rawmaterial.foodmaterial;
 
 
 /**
- * @author Ngae Zeh-ghau
- * @project chocolateFactory
  * @classname Matcha
  * @description matcha the food raw material
- * @date 2020-11-07 16:26:35
  */
 public class Matcha extends FoodMaterial {
     /**

@@ -5,11 +5,8 @@ import com.tongji.michelin.scene.decorator.Residence;
 import com.tongji.michelin.scene.SceneNameConst;
 
 /**
- * @author TT
- * @project chocolateFactory
  * @classname Villa
  * @description This is a villa
- * @date 2020/11/24 20:30
  */
 public class Villa extends Residence {
 

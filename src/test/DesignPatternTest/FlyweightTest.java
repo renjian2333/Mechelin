@@ -7,11 +7,9 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- * @author Ngae Zeh-ghau
- * @project chocolateFactory
+ * @author yfh zqr
  * @classname FlyweightTest
  * @description Test for Flyweight
- * @date 2020/11/27 13:31
  */
 public class FlyweightTest {
 

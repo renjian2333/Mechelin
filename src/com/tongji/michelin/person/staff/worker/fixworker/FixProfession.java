@@ -4,11 +4,8 @@ import com.tongji.michelin.person.Person;
 import com.tongji.michelin.scene.staffarea.StaffArea;
 
 /**
- * @author Zheng
- * @project chocolateFactory
- * @classname MaintenanceProfessional
+ * @classname FixProfession
  * @description the Concrete Handler of Chain of Responsibility
- * @date 2020/11/14 19:16
  */
 public class FixProfession extends FixWorker {
     public FixProfession(String name, int age, Person.Sex sex, int salary, StaffArea department) {

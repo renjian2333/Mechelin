@@ -6,11 +6,9 @@ import com.tongji.michelin.factory.support.TimeSystem;
 import java.util.Scanner;
 
 /**
- * @author Y.C.Young
- * @project chocolateFactory
+ * @author lxk
  * @classname DirtyFlagTest
  * @description Test for dirty flag pattern
- * @date 2022/11/24 22:02
  */
 public class DirtyFlagTest {
 

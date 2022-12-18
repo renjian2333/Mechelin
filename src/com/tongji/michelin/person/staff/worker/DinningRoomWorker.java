@@ -3,11 +3,8 @@ package com.tongji.michelin.person.staff.worker;
 import com.tongji.michelin.scene.staffarea.StaffArea;
 
 /**
- * @author Brian.Z
- * @project chocolateFactory
  * @classname DinningRoomWorker
  * @description worker in the dinning room
- * @date 2020/11/11 16:20
  */
 public class DinningRoomWorker extends Worker {
 

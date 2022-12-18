@@ -1,11 +1,8 @@
 package com.tongji.michelin.supplement.proxy;
 
 /**
- * @author TT
- * @project chocolateFactory
  * @classname PortableBatteryProxy
  * @description Proxy the portable battery
- * @date 2020/11/18 13:28
  */
 public class PortableBatteryProxy implements PortableBatterySubject {
 

@@ -1,11 +1,8 @@
 package com.tongji.michelin.person.visitor;
 
 /**
- * @author Kerr
- * @project chocolateFactory
  * @classname VisitorBO
  * @description TODO
- * @date 2020/11/27 20:12
  */
 
 import com.tongji.michelin.person.Person;

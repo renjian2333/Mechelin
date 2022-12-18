@@ -7,12 +7,9 @@ import com.tongji.michelin.person.staff.worker.fixworker.*;
 import java.util.Random;
 
 /**
- * @author Yuan.Cai
- * @project chocolateFactory
  * @classname Machine
  * @description This is the abstract base class of all the machines in the factory.
  * Basic class Machine includes 7 private attributes, 2 protected attributes.
- * @date 2020/11/7 19:55
  */
 public abstract class Machine {
     /**

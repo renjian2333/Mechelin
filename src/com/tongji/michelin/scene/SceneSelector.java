@@ -5,11 +5,8 @@ import java.util.List;
 import java.util.function.Predicate;
 
 /**
- * @author Ngae Zeh-ghau
- * @project chocolateFactory
  * @classname SceneSelector
  * @description Scene Selector. This is a part of Callback pattern.
- * @date 2020/11/25 10:29
  */
 
 public class SceneSelector {

@@ -7,11 +7,9 @@ import com.tongji.michelin.supplement.receipt.TaxReceipt;
 import java.util.Scanner;
 
 /**
- * @author Zeus
- * @project chocolateFactory
+ * @author yfh
  * @classname ImmutableTest
  * @description ImmutableTest
- * @date 2020/11/25 9:47
  */
 public class ImmutableTest {
 

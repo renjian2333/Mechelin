@@ -3,8 +3,6 @@ package com.tongji.michelin.supplement.receipt;
 import com.tongji.michelin.supplement.receipt.provider.TaxProvider;
 
 /**
- * @author Zeus Lee
- * @project chocolateFactory
  * @classname TaxReceipt
  * @description
  *
@@ -12,7 +10,6 @@ import com.tongji.michelin.supplement.receipt.provider.TaxProvider;
  *
  * once determined, is immutable, so use final for a modification.
  *
- * @date 2020/11/25 9:30
  */
 public final class TaxReceipt extends AbstractReceipt {
 

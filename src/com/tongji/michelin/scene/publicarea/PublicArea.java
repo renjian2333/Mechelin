@@ -7,11 +7,8 @@ import com.tongji.michelin.scene.Scene;
 import java.util.LinkedList;
 
 /**
- * @author Y.C.Young
- * @project chocolateFactory
  * @classname PublicArea
  * @description Inherited from basic class scene, it represents scenes open for everyone.
- * @date 2020/11/9 19:43
  */
 public abstract class PublicArea extends Scene {
 

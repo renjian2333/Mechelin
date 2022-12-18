@@ -1,11 +1,8 @@
 package com.tongji.michelin.scene.staffarea.manufacturingarea.warehouse.Delegate;
 
 /**
- * @author Brian.Z
- * @project chocolateFactory
  * @classname WarehouseLookup
  * @description To look up a warehouse service
- * @date 2020/11/17 21:11
  */
 public class WarehouseLookup {
 

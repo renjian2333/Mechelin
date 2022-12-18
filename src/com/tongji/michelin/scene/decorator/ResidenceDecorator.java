@@ -1,11 +1,8 @@
 package com.tongji.michelin.scene.decorator;
 
 /**
- * @author TT
- * @project chocolateFactory
  * @classname ResidenceDecorator
  * @description this represents the decoration of residence
- * @date 2020/11/18 14:25
  */
 public abstract class ResidenceDecorator implements DecoratorComponent {
 

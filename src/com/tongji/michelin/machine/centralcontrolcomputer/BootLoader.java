@@ -1,11 +1,8 @@
 package com.tongji.michelin.machine.centralcontrolcomputer;
 
 /**
- * @author Ngae Zeh-ghau
- * @project chocolateFactory
  * @classname BootLoader
  * @description boot loader
- * @date 2020/11/20 22:14
  */
 public class BootLoader {
 

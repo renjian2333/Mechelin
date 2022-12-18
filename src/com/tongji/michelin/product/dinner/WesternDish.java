@@ -1,26 +1,20 @@
 package com.tongji.michelin.product.dinner;
 
 import com.tongji.michelin.product.drink.Drink;
-import com.tongji.michelin.rawmaterial.foodmaterial.CocoaBean;
-import com.tongji.michelin.rawmaterial.foodmaterial.Milk;
-import com.tongji.michelin.rawmaterial.foodmaterial.Sugar;
+import com.tongji.michelin.rawmaterial.foodmaterial.*;
 
 import java.io.Serializable;
 
 /**
- * @author Kerr
- * @project chocolateFactory
- * @classname MilkChocolate
- * @description this is milk chocolate.
- * @date 2022/11/8 15:16
+ * @classname WesternDish
+ * @description this is WesternDish
  */
 public class WesternDish extends Dinner implements Serializable, Cloneable {
 
     //fields
-    protected double milkContent;
-    private double cocoaBeanNum = 100;
-    private double sugarNum = 5;
-    private double milkNum = 0.5;
+    private double meatNum = 5;
+    private double vegetableNum = 0.5;
+
 
     //constructor
     public WesternDish() {
@@ -30,77 +24,42 @@ public class WesternDish extends Dinner implements Serializable, Cloneable {
     //constructor
     public WesternDish(Drink drink) {
         super("WesternDish", 18, 15, 0.3, drink);
-        this.milkContent = 0.4;
         this.initIngredientList();
     }
 
-    /**
-     * @return milk's content
-     */
-    public double getMilkContent() {
-        return this.milkContent;
+    public void setMeatNum(double meatNum) {
+        this.meatNum = meatNum;
     }
 
-    /**
-     * how many grams' milk is needed;
-     *
-     * @return
-     */
-    public double getMilkWeight() {
-        return this.milkContent * this.weight;
-    }
-
-    /**
-     * initialize the ingredient list of the milk chocolate
-     */
     @Override
     protected void initIngredientList() {
-        super.ingredientList.add(new CocoaBean());
-        super.ingredientList.add(new Sugar());
-        super.ingredientList.add(new Milk());
+        super.ingredientList.add(new Meat());
+        super.ingredientList.add(new Vegetable());
     }
 
-    /**
-     * return the chocolate's name with the sandwich it contains
-     * @return
-     */
     public String getNameWithDrink() {
         return drink.getDrink() + " WesternDish";
     }
 
-    /**
-     * override the toString method
-     *
-     * @return
-     */
     @Override
     public String toString() {
         return "subclass : Western Dish";
     }
 
-
-    public void setMeatNum(double cocoaBeanNum) {
-        this.cocoaBeanNum = cocoaBeanNum;
-    }
-
     public void setVegetableNum(double sugarNum) {
-        this.sugarNum = sugarNum;
+        this.meatNum = sugarNum;
     }
 
     public void setSaltNum(double milkNum) {
-        this.milkNum = milkNum;
+        this.vegetableNum = milkNum;
     }
 
-    public double getCocoaBeanNum() {
-        return cocoaBeanNum;
+    public double getVegetableNum() {
+        return vegetableNum;
     }
 
-    public double getMilkNum() {
-        return milkNum;
-    }
-
-    public double getSugarNum() {
-        return sugarNum;
+    public double getMeatNum() {
+        return meatNum;
     }
 
     @Override
@@ -114,6 +73,6 @@ public class WesternDish extends Dinner implements Serializable, Cloneable {
     }
 
     public boolean equals(WesternDish westernDish) {
-        return this.cocoaBeanNum == westernDish.getCocoaBeanNum() && this.sugarNum == westernDish.getSugarNum() && this.milkNum == westernDish.getMilkNum();
+        return  this.meatNum == westernDish.getMeatNum() && this.vegetableNum == westernDish.getVegetableNum();
     }
 }

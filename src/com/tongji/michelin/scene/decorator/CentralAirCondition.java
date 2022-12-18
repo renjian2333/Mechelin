@@ -1,11 +1,8 @@
 package com.tongji.michelin.scene.decorator;
 
 /**
- * @author TT
- * @project chocolateFactory
  * @classname CentralAirCondition
  * @description this is a residence with centralAirCondition
- * @date 2020/11/18 14:35
  */
 
 public class CentralAirCondition extends ResidenceDecorator {

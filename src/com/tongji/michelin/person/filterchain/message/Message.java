@@ -1,11 +1,8 @@
 package com.tongji.michelin.person.filterchain.message;
 
 /**
- * @author Zeus Lee
- * @project chocolateFactory
  * @classname Message
  * @description Our base class for passing messages
- * @date 2020/11/15 18:00
  */
 public abstract class Message {
 

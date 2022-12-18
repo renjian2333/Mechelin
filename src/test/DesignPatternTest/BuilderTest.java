@@ -9,11 +9,9 @@ import java.util.Scanner;
 
 
 /**
- * @author Yuan.Cai
- * @project chocolateFactory
+ * @author yfh
  * @classname BuilderTest
  * @description Test for Design Pattern --- Builder
- * @date 2020/11/24 0:37
  */
 public class BuilderTest {
     public static void main(String[] args) {

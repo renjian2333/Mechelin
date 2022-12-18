@@ -8,11 +8,9 @@ import com.tongji.michelin.machine.transportmachine.FDRs.FDR;
 import java.util.Scanner;
 
 /**
- * @author Miracle Ray
- * @project chocolateFactory
+ * @author yfh
  * @classname AdapterTest
  * @description test for Adapter
- * @date 2020/11/23 13：30
  */
 public class AdapterTest {
     public static void adapterTest() {

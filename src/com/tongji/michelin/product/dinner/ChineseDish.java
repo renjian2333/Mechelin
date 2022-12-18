@@ -4,17 +4,7 @@ package com.tongji.michelin.product.dinner;
 import com.tongji.michelin.product.drink.Drink;
 
 /**
- * @author Zeus Lee
- * @project chocolateFactory
- * @classname AlmondChocolate
- * @description AlmondChocolate
- * @date 2020/11/15 16:31
- */
-
-/**
- * modified
- * @author Kerr
- * impelement abstract method getNameWithSandwich() to make it can work.
+ * @classname ChineseDish
  */
 public class ChineseDish extends Dinner {
 
@@ -36,10 +26,7 @@ public class ChineseDish extends Dinner {
     }
 
     @Override
-    /**
-     * return the chocolate's name with the sandwich it contains
-     * @return
-     */
+
     public String getNameWithDrink() {
         return null;
     }

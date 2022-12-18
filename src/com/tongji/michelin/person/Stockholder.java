@@ -4,11 +4,8 @@ import com.tongji.michelin.person.filterchain.message.Message;
 import com.tongji.michelin.scene.Scene;
 
 /**
- * @author Brian.Z
- * @project chocolateFactory
  * @classname Stockholder
  * @description stockholders of our factory
- * @date 2020/11/7 18:45
  */
 public class Stockholder extends Person {
 

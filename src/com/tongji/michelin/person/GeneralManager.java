@@ -9,12 +9,9 @@ import com.tongji.michelin.scene.Scene;
 import java.util.ArrayList;
 
 /**
- * @author Brian.Z
- * @project chocolateFactory
  * @classname GeneralManager
  * @description There is only one general manager of the chocolate factory.
  * TODO Design Pattern --- Singleton
- * @date 2020/11/7 18:13
  */
 public class GeneralManager extends Person {
 

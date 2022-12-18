@@ -8,11 +8,9 @@ import java.util.Random;
 import java.util.Scanner;
 
 /**
- * @author Yuan.Cai
- * @project chocolateFactory
+ * @author lxk
  * @classname ExtensionObjects
  * @description Test for Design Pattern --- Extension Objects
- * @date 2022/11/24 0:58
  */
 public class ExtensionObjectsTest {
     public static void main(String[] args) {

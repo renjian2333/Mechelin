@@ -10,11 +10,8 @@ import com.tongji.michelin.scene.staffarea.StaffArea;
 import java.util.ArrayList;
 
 /**
- * @author Brian.Z, Y.C.Young
- * @project chocolateFactory
  * @classname Manager
  * @description A manager is responsible for one department.
- * @date 2020/11/7 17:17
  */
 public class Manager extends Staff {
 

@@ -7,11 +7,7 @@ import com.tongji.michelin.product.dessert.MatchaIceCream;
 import com.tongji.michelin.scene.SceneNameConst;
 
 /**
- * @author Yuan.Cai
- * @project chocolateFactory
- * @classname WhiteWorkshop
- * @description This workshop produces white chocolate and dog shaped cookies.
- * @date 2020/11/13 18:33
+ * @classname WesternCookshop
  */
 public class WesternCookshop extends CookShop {
     public WesternCookshop() {

@@ -3,11 +3,8 @@ package com.tongji.michelin.machine.processmachine.wrappermachine;
 import com.tongji.michelin.machine.processmachine.wrappermachine.WrapperMachine;
 
 /**
- * @author Yuan.Cai
- * @project chocolateFactory
  * @classname BasicWrapper
  * @description Machine for wrapping a small quantity of products.
- * @date 2020/11/8 22:14
  */
 public class BasicWrapper extends WrapperMachine {
     public BasicWrapper(String type, String machineNum) {

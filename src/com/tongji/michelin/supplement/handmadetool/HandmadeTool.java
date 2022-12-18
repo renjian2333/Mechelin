@@ -3,11 +3,8 @@ package com.tongji.michelin.supplement.handmadetool;
 import java.util.Date;
 
 /**
- * @author Ngae Zeh-ghau
- * @project chocolateFactory
  * @classname HandmadeTool
  * @description Handmade tool class. This is a part of COW pattern.
- * @date 2020/11/18 10:09
  */
 public class HandmadeTool {
 

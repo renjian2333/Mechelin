@@ -4,11 +4,8 @@ import com.tongji.michelin.machine.transportmachine.TransportMachine;
 import com.tongji.michelin.product.Product;
 
 /**
- * @author Yuan.Cai
- * @project chocolateFactory
  * @classname BigTruck
  * @description Machine for transporting a large quantity of items.
- * @date 2020/11/8 19:55
  */
 public class BigTruck extends TransportMachine {
     public BigTruck(String type, String machineNum) {

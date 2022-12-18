@@ -3,11 +3,8 @@ package com.tongji.michelin.machine.processmachine.qualitytestmachine.qualitytes
 import com.tongji.michelin.machine.processmachine.qualitytestmachine.QualityTestMachine;
 
 /**
- * @author TT
- * @project chocolateFactory
  * @classname QualityTestSystem
  * @description This is quality test system
- * @date 2020/11/14 18:00
  */
 public abstract class QualityTestSystem extends QualityTestMachine {
     /**

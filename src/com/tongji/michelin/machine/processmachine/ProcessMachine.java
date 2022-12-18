@@ -6,11 +6,8 @@ import com.tongji.michelin.product.Product;
 import java.util.Random;
 
 /**
- * @author Yuan.Cai
- * @project chocolateFactory
  * @classname ProcessMachine
  * @description Inherited from Machine, this class is the abstract class of all the process machines.
- * @date 2020/11/8 0:04
  */
 public abstract class ProcessMachine extends Machine {
 

@@ -4,11 +4,8 @@ import com.tongji.michelin.machine.processmachine.ProcessMachine;
 import com.tongji.michelin.product.Product;
 
 /**
- * @author TT
- * @project chocolateFactory
  * @classname QualityTestMachine
  * @description This is quality test machine
- * @date 2020/11/14 17:58
  */
 public class QualityTestMachine extends ProcessMachine {
 

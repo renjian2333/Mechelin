@@ -5,11 +5,8 @@ import com.tongji.michelin.machine.processmachine.wrappermachine.strategy.WrapSt
 import com.tongji.michelin.product.Product;
 
 /**
- * @author Yuan.Cai
- * @project chocolateFactory
  * @classname WrapperMachine
  * @description Inherited from ProcessMachine, this class is the abstract class of all the wrapper machines.
- * @date 2020/11/8 19:30
  */
 public class WrapperMachine extends ProcessMachine {
 

@@ -6,11 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Y.C.Young
- * @project chocolateFactory
  * @classname SceneStructure
  * @description collect scenes for visitor pattern
- * @date 2020/11/18 16:52
  */
 public class SceneStructure {
 

@@ -5,11 +5,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author Zheng
- * @project chocolateFactory
  * @classname TerminalExpression
  * @description Terminal expression, implements the interface Expression.
- * @date 2020/11/15 11:22
  */
 public class TerminalExpression implements Expression {
 

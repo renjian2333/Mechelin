@@ -1,11 +1,8 @@
 package com.tongji.michelin.scene;
 
 /**
- * @author Y.C.Young
- * @project chocolateFactory
  * @classname SceneNameConst
  * @description const names of scenes
- * @date 2020/11/24 16:10
  */
 public class SceneNameConst {
 

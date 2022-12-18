@@ -1,11 +1,8 @@
 package com.tongji.michelin.person.visitor.limit;
 
 /**
- * @author Zheng
- * @project chocolateFactory
  * @classname Context
  * @description the context of the interpreter pattern.
- * @date 2020/11/15 11:23
  */
 public class Context {
 

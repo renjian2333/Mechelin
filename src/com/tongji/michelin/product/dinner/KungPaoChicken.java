@@ -5,11 +5,7 @@ import com.tongji.michelin.rawmaterial.foodmaterial.CocoaBean;
 import com.tongji.michelin.rawmaterial.foodmaterial.Water;
 
 /**
- * @author Kerr
- * @project chocolateFactory
- * @classname DarkChocolate
- * @description this is dark chocolate
- * @date 2020/11/8 15:15
+ * @classname KungPaoChicken
  */
 public class KungPaoChicken extends Dinner {
 
@@ -24,9 +20,6 @@ public class KungPaoChicken extends Dinner {
         this.initIngredientList();
     }
 
-    /**
-     * initialize the ingredient list of dark chocolate.
-     */
     @Override
     protected void initIngredientList() {
         super.ingredientList.add(new CocoaBean());
@@ -34,10 +27,7 @@ public class KungPaoChicken extends Dinner {
     }
 
     @Override
-    /**
-     * return the chocolate's name with the sandwich it contains
-     * @return
-     */
+
     public String getNameWithDrink() {
         return drink.getDrink() + " KungPaoChicken";
     }

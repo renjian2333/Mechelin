@@ -13,11 +13,9 @@ import com.tongji.michelin.product.state.ProducedState;
 import java.util.Scanner;
 
 /**
- * @author Brian.Z
- * @project chocolateFactory
+ * @author yfh
  * @classname StrategyTest
  * @description Test for Strategy
- * @date 2020/11/20 21:36
  */
 public class StrategyTest {
 

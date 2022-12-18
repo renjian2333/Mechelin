@@ -2,11 +2,8 @@ package com.tongji.michelin.rawmaterial.foodmaterial;
 
 
 /**
- * @author Ngae Zeh-ghau
- * @project chocolateFactory
  * @classname Nut
  * @description nut the food raw material
- * @date 2020-11-07 16:24:10
  */
 public class Nut extends FoodMaterial {
     /**

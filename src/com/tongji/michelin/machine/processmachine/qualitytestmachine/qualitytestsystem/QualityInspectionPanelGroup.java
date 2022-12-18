@@ -4,11 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author TT
- * @project chocolateFactory
  * @classname QualityInspectionPanelGroup
  * @description This is quality inspection panel group
- * @date 2020/11/14 18:010
  */
 public class QualityInspectionPanelGroup extends QualityTestSystem {
     private List<QualityTestSystem> succulents = new ArrayList<QualityTestSystem>();

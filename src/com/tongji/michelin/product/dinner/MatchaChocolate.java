@@ -7,11 +7,8 @@ import com.tongji.michelin.rawmaterial.foodmaterial.Sugar;
 import com.tongji.michelin.rawmaterial.foodmaterial.Water;
 
 /**
- * @author Kerr
- * @project chocolateFactory
  * @classname MatchaChocolate
  * @description this is matcha chocolate
- * @date 2020/11/8 15:41
  */
 public class MatchaChocolate extends Dinner {
 

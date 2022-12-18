@@ -4,11 +4,8 @@ import com.tongji.michelin.machine.processmachine.productmachine.BasicProductMac
 import com.tongji.michelin.product.Product;
 
 /**
- * @author Yuan.Cai
- * @project chocolateFactory
  * @classname AugProductMachine
  * @description This class expands the function of the original production machine so that it can produce continuously.
- * @date 2020/11/18 21:44
  */
 public class AugProductMachine implements MachineExtension {
 

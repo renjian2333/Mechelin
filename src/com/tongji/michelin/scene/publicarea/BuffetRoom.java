@@ -6,25 +6,16 @@ import com.tongji.michelin.supplement.handmadetool.HandmadeToolFactory;
 import com.tongji.michelin.person.staff.worker.utilityworker.UtilityWorker;
 
 /**
- * @author Ngae Zeh-ghau
- * @project chocolateFactory
- * @classname ExperienceRoom
- * @description Designed for visitors to experience making chocolate.
- * @date 2020/11/24 11:25
+ * @classname BuffetRoom
  */
 public class BuffetRoom extends PublicArea {
 
     private HandmadeTool tool = HandmadeToolFactory.getHandMadeTool();
 
-    /**
-     * number of this exp-room
-     *
-     * @modified by Ray
-     **/
     private int buffetRoomNumber;
 
     /**
-     * constructor of ExperienceRoom
+     * constructor of BuffetRoom
      */
     public BuffetRoom(String location, double cost, double area, int maxNumber) {
         super(location, cost, area, maxNumber);

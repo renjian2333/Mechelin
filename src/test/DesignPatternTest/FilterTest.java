@@ -11,11 +11,9 @@ import com.tongji.michelin.person.staff.Manager;
 import java.util.Scanner;
 
 /**
- * @author Y.C.Young
- * @project chocolateFactory
+ * @author yfh
  * @classname FilterTest
  * @description Test for filter pattern
- * @date 2020/11/23 20:17
  */
 public class FilterTest {
 

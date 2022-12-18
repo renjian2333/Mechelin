@@ -7,11 +7,8 @@ import com.tongji.michelin.scene.staffarea.StaffArea;
 import java.util.ArrayList;
 
 /**
- * @author Brian.Z
- * @project chocolateFactory
  * @classname Payroll
  * @description abstract class for payroll (Using Design Pattern Observer)
- * @date 2020/11/21 20:20
  */
 public abstract class Payroll {
 

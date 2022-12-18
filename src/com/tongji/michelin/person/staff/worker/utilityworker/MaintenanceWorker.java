@@ -10,11 +10,8 @@ import com.tongji.michelin.scene.staffarea.StaffArea;
 import com.tongji.michelin.scene.staffarea.manufacturingarea.ManufacturingArea;
 
 /**
- * @author Y.C.Young
- * @project chocolateFactory
- * @classname FixWorker
+ * @classname MaintenanceWorker
  * @description workers checking safety risks of scenes and keeping scenes safe
- * @date 2020/11/18 16:48
  */
 public class MaintenanceWorker extends Worker implements UtilityWorker {
 

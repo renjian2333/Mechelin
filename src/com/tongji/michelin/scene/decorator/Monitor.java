@@ -1,11 +1,8 @@
 package com.tongji.michelin.scene.decorator;
 
 /**
- * @author TT
- * @project chocolateFactory
  * @classname Monitor
  * @description this is residence with monitor
- * @date 2020/11/18 14:34
  */
 public class Monitor extends ResidenceDecorator {
 

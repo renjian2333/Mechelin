@@ -9,11 +9,8 @@ import com.tongji.michelin.factory.support.SecurityCheckTask;
 import java.util.Observable;
 
 /**
- * @author Brian.Z
- * @project chocolateFactory
  * @classname Guard
  * @description a kind of staff
- * @date 2020/11/10 15:27
  */
 public class Guard extends Staff {
 

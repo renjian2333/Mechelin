@@ -2,11 +2,8 @@ package com.tongji.michelin.machine.processmachine.productmachine;
 
 
 /**
- * @author Yuan.Cai
- * @project chocolateFactory
  * @classname BasicProductMachine
  * @description Machine for producing a large quantity of products.
- * @date 2020/11/9 0:09
  */
 public class BasicProductMachine extends ProductMachine {
     public BasicProductMachine(String type, String machineNum) {

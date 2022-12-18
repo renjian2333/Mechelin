@@ -3,11 +3,8 @@ package com.tongji.michelin.scene;
 import com.tongji.michelin.person.staff.worker.utilityworker.UtilityWorker;
 
 /**
- * @author Y.C.Young
- * @project chocolateFactory
  * @classname GarbageStation
  * @description GarbageStation is used to store garbage from the workshop
- * @date 2020/11/10 22:03
  */
 public class GarbageStation extends Scene {
 

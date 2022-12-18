@@ -2,11 +2,8 @@ package com.tongji.michelin.rawmaterial.foodmaterial;
 
 
 /**
- * @author Ngae Zeh-ghau
- * @project chocolateFactory
  * @classname Water
  * @description Water the food raw material
- * @date 2020-11-07 16:18:34
  */
 public class Water extends FoodMaterial {
     /**

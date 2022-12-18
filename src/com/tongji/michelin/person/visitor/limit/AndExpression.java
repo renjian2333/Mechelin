@@ -1,11 +1,8 @@
 package com.tongji.michelin.person.visitor.limit;
 
 /**
- * @author Zheng
- * @project chocolateFactory
  * @classname AndExpression
  * @description Nonterminal expression, implements the interface Expression.
- * @date 2020/11/15 11:23
  */
 public class AndExpression implements Expression {
 

@@ -1,11 +1,8 @@
 package com.tongji.michelin.supplement.receipt.provider;
 
 /**
- * @author Zeus Lee
- * @project chocolateFactory
  * @classname Provider
  * @description Provider information of invoice
- * @date 2020/11/27 17:24
  */
 public abstract class Provider {
 

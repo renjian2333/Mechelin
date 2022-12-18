@@ -6,11 +6,8 @@ import com.tongji.michelin.scene.SceneNameConst;
 import java.util.ArrayList;
 
 /**
- * @author Y.C.Young
- * @project chocolateFactory
  * @classname ExhibitionRoom
  * @description Exhibition room is for visitors to see the products of the factory
- * @date 2020/11/9 19:52
  */
 public class ExhibitionRoom extends PublicArea {
 

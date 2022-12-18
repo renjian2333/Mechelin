@@ -6,11 +6,8 @@ import com.tongji.michelin.rawmaterial.foodmaterial.Sugar;
 import com.tongji.michelin.rawmaterial.foodmaterial.Water;
 
 /**
- * @author Kerr
- * @project chocolateFactory
  * @classname ChocolateIceCream
  * @description TODO
- * @date 2020/11/8 15:26
  */
 public class ChocolateIceCream extends Dessert {
 

@@ -8,11 +8,9 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * @author Kerr
- * @project chocolateFactory
+ * @author yfh
  * @classname TransferObjectTest
  * @description test for transfer object pattern
- * @date 2020/11/27 20:21
  */
 public class TransferObjectTest {
     public static void main(String[] args) {

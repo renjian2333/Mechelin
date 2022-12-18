@@ -2,11 +2,8 @@ package com.tongji.michelin.rawmaterial.foodmaterial;
 
 
 /**
- * @author Ngae Zeh-ghau
- * @project chocolateFactory
  * @classname CocoaBean
  * @description cocoa bean the food raw material
- * @date 2020-11-07 16:13:02
  */
 public class CocoaBean extends FoodMaterial {
 

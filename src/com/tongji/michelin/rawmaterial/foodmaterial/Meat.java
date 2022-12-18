@@ -1,37 +1,33 @@
 package com.tongji.michelin.rawmaterial.foodmaterial;
 
-/**
- * @classname EdibleGoldLeaf
- * @description edible gold leaf the food raw material
- */
-public class EdibleGoldLeaf extends FoodMaterial {
+public class Meat extends FoodMaterial{
     /**
-     * ctor of EdibleGoldLeaf
+     * ctor of Meat
      * <p>
      * This ctor sets state to SOLID.
      *
      * @param initialQuant         initial quantity
      * @param initialExpireTime initial time to expire
      */
-    public EdibleGoldLeaf(double initialQuant, double initialExpireTime) {
+    public Meat(double initialQuant, double initialExpireTime) {
         super(initialQuant, initialExpireTime, State.SOLID);
     }
 
-    public EdibleGoldLeaf() {
+    public Meat() {
         this(1, 1);
     }
 
     @Override
     public boolean process() {
         /*
-         * TODO: implement EdibleGoldLeaf.process()
+         * TODO: implement Meat.process()
          */
         return false;
     }
 
     @Override
     public Object clone() throws CloneNotSupportedException {
-        System.out.println("Successfully copy Edible Gold Leaf!");
-        return (EdibleGoldLeaf) super.clone();
+        System.out.println("Successfully copy meat!");
+        return (Meat) super.clone();
     }
 }

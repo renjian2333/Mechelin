@@ -7,11 +7,9 @@ import com.tongji.michelin.scene.staffarea.manufacturingarea.warehouse.Warehouse
 import java.util.Scanner;
 
 /**
- * @author Y.C.Young
- * @project chocolateFactory
+ * @author lxk
  * @classname NullObjectTest
  * @description Test for null object pattern
- * @date 2022/11/24 18:19
  */
 public class NullObjectTest {
 

@@ -8,11 +8,9 @@ import com.tongji.michelin.scene.staffarea.manufacturingarea.assemblyline.DishAs
 import java.util.Scanner;
 
 /**
- * @author Y.C.Young
- * @project chocolateFactory
+ * @author yfh
  * @classname FactoryPatternTest
  * @description Test for factory method
- * @date 2020/11/23 19:34
  */
 public class FactoryMethodTest {
 

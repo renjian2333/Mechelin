@@ -3,11 +3,8 @@ package com.tongji.michelin.scene.decorator;
 import com.tongji.michelin.scene.SceneNameConst;
 
 /**
- * @author TT
- * @project chocolateFactory
  * @classname Flat
  * @description This is a flat
- * @date 2020/11/24 20:35
  */
 public class Flat extends Residence {
 

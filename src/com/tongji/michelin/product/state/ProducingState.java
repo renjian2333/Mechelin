@@ -3,11 +3,8 @@ package com.tongji.michelin.product.state;
 import com.tongji.michelin.product.Product;
 
 /**
- * @author Brian.Z
- * @project chocolateFactory
  * @classname ProducingState
  * @description TODO
- * @date 2020/11/21 22:00
  */
 public class ProducingState extends ProductState {
 // methods

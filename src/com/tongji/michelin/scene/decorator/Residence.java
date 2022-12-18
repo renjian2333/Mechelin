@@ -4,11 +4,8 @@ import com.tongji.michelin.person.staff.worker.utilityworker.UtilityWorker;
 import com.tongji.michelin.scene.Scene;
 
 /**
- * @author TT
- * @project chocolateFactory
  * @classname Residence
  * @description this is residence
- * @date 2020/11/18 14:19
  */
 public abstract class Residence extends Scene implements DecoratorComponent {
 

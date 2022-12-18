@@ -7,11 +7,8 @@ import com.tongji.michelin.scene.staffarea.StaffArea;
 import java.util.UUID;
 
 /**
- * @author Brian.Z
- * @project chocolateFactory
  * @classname Staff
  * @description The base class of staffs, including workers, managers, guards and a general manager.
- * @date 2020/11/7 15:17
  */
 public abstract class Staff extends Person {
 

@@ -6,11 +6,7 @@ import com.tongji.michelin.rawmaterial.foodmaterial.Sugar;
 import com.tongji.michelin.rawmaterial.foodmaterial.Water;
 
 /**
- * @author Kerr
- * @project chocolateFactory
- * @classname WhiteChocolate
- * @description this is white chocolate.
- * @date 2020/11/8 15:15
+ * @classname Steak
  */
 public class Steak extends Dinner {
 
@@ -26,9 +22,6 @@ public class Steak extends Dinner {
     }
 
 
-    /**
-     * initialize the ingredient list of white chocolate
-     */
     @Override
     protected void initIngredientList() {
         super.ingredientList.add(new Water());
@@ -37,10 +30,6 @@ public class Steak extends Dinner {
     }
 
     @Override
-    /**
-     * return the chocolate's name with the sandwich it contains
-     * @return
-     */
     public String getNameWithDrink() {
         return drink.getDrink() + " Steak";
     }

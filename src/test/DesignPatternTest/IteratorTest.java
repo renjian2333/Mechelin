@@ -11,11 +11,9 @@ import com.tongji.michelin.scene.staffarea.manufacturingarea.cookshop.ChineseCoo
 import java.util.Scanner;
 
 /**
- * @author Kerr
- * @project chocolateFactory
+ * @author zqr
  * @classname IteratorTest
  * @description test for iterator pattern
- * @date 2020/11/26 22:02
  */
 public class IteratorTest {
     public static void main(String[] args) {
