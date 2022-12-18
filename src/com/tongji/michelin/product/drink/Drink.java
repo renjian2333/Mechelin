@@ -8,7 +8,7 @@ package com.tongji.michelin.product.drink;
  * @date 2020/11/17 17:09
  */
 
-public interface Drink {
+public interface Drink  {
 // methods
     String getDrink();
 }

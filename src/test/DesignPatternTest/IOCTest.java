@@ -83,7 +83,7 @@ public class IOCTest {
                 case 4: {
                     System.out.println("IOC Pattern: creating ChineseCookshop will implicitly create ChineseCookshopWorker：");
                     ChineseCookshop chineseCookshop = new ChineseCookshop();
-                    Manager.getWorkShopManager().hireWorker("mark",  Person.Sex.MALE, 22, 7000, chineseCookshop);
+                    Manager.getCookShopManager().hireWorker("mark",  Person.Sex.MALE, 22, 7000, chineseCookshop);
                     chineseCookshop.displayAllStaffs();
                     System.out.println("");
                     break;
@@ -91,7 +91,7 @@ public class IOCTest {
                 case 5: {
                     System.out.println("IOC Pattern: creating WesternCookshop will implicitly create WesternCookWorker：");
                     WesternCookshop westernCookShop = new WesternCookshop();
-                    Manager.getWorkShopManager().hireWorker("mark", Person.Sex.FEMALE, 22,  7000, westernCookShop);
+                    Manager.getCookShopManager().hireWorker("mark", Person.Sex.FEMALE, 22,  7000, westernCookShop);
                     westernCookShop.displayAllStaffs();
                     System.out.println("");
                     break;

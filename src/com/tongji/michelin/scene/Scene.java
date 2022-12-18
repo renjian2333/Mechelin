@@ -6,11 +6,9 @@ import com.tongji.michelin.person.staff.worker.utilityworker.UtilityWorker;
 import com.tongji.michelin.person.Stockholder;
 
 /**
- * @author Brian.Z, Y.C.Young
- * @project chocolateFactory
+ * @author zqr
  * @classname Scene
  * @description The basic class of Scene, each scene has its own function
- * @date 2020/11/9 10:26
  */
 public abstract class Scene {
 

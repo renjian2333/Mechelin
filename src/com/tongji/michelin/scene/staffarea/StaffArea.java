@@ -14,12 +14,10 @@ import com.tongji.michelin.scene.staffarea.WorkerIterator.WorkerListIterator;
 import java.util.ArrayList;
 
 /**
- * @author Y.C.Young
- * @project chocolateFactory
+ * @author zqr
  * @classname StaffArea
  * @description Inherited from basic class scene, it represents scenes only open for staffs.
  * ConcreteAggregate of the Iterator.
- * @date 2020/11/9 19:44
  */
 public abstract class StaffArea extends Scene implements Aggregate {
 

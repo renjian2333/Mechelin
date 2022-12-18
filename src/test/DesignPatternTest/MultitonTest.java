@@ -70,10 +70,10 @@ public class MultitonTest {
                 }
                 case 3: {
                     System.out.println("Let's get an instance of workshop's manager for the first time: ");
-                    Manager cookshopManager1 = Manager.getWorkShopManager();
+                    Manager cookshopManager1 = Manager.getCookShopManager();
                     System.out.println("");
                     System.out.println("Get an instance of cookshop's manager again: ");
-                    Manager cookshopManager2 = Manager.getWorkShopManager();
+                    Manager cookshopManager2 = Manager.getCookShopManager();
                     System.out.println("Let's check whether the two instances are the same:");
                     System.out.println("Print the result of \"cookManager1 == cookshopManager2 \", which should be true.");
                     System.out.println(cookshopManager1 == cookshopManager2);

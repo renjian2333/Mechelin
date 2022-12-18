@@ -11,11 +11,9 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * @author Ngae Zeh-ghau
- * @project chocolateFactory
+ * @author zqr
  * @classname CallbackTest
  * @description Test for Callback.
- * @date 2020/11/25 10:25
  */
 public class CallbackTest {
     public static void main(String[] args) {

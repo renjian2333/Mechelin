@@ -9,11 +9,9 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * @author TT
- * @project chocolateFactory
+ * @author zqr
  * @classname ProxyTest
  * @description test for proxy pattern
- * @date 2020/11/24 19:26
  */
 public class ProxyTest {
 
@@ -36,7 +34,7 @@ public class ProxyTest {
 
             Scanner sc = new Scanner(System.in);
             System.out.println("");
-            System.out.print("Input your order：");
+            System.out.print("Input your order:");
             int order = 0;
             try {
                 order = sc.nextInt();

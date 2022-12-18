@@ -7,11 +7,9 @@ import com.tongji.michelin.rawmaterial.packagematerial.Cup;
 import java.util.Scanner;
 
 /**
- * @author Y.C.Young
- * @project chocolateFactory
+ * @author zqr
  * @classname PrototypeTest
  * @description Test for prototype pattern
- * @date 2020/11/23 18:44
  */
 public class PrototypeTest {
 
@@ -41,7 +39,7 @@ public class PrototypeTest {
 
         System.out.println("");
         System.out.println("Cup : clone() :  clone a cup instance");
-        System.out.println("Egg : clone() :  clone a cup instance");
+        System.out.println("Egg : clone() :  clone an egg instance");
         System.out.println("Method named \"clone\" exists in every subclass of RawMaterial");
         System.out.println("");
 

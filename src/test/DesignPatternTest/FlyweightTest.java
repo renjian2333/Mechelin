@@ -19,13 +19,12 @@ public class FlyweightTest {
         final String HINT1 = "\n"
                 + "*************************** Flyweight Test ****************************\n"
                 + "***            <Phase 1: Create an Array of Dessert>             ***\n"
-                + "***                                                                 ***\n"
+                + "***                                                               ***\n"
                 + "***            0. Construct DessertMix Now                        ***\n"
-                + "***            1. MangoIceCream                                   ***\n"
-                + "***            2. MatchaIceCream                                     ***\n"
-                + "***            3. ChocolateIceCream                                   ***\n"
-                + "***            4. ChocolateWafer                                     ***\n"
-                + "***                                                                 ***\n"
+                + "***            1. MatchaIceCream                                  ***\n"
+                + "***            2. ChocolateIceCream                               ***\n"
+                + "***            3. ChocolateWafer                                  ***\n"
+                + "***                                                               ***\n"
                 + "***********************************************************************\n";
 
         final String HINT2 = "\n"
@@ -34,8 +33,8 @@ public class FlyweightTest {
                 + "***                                                                 ***\n"
                 + "***                 Input two indexes to compare.                   ***\n"
                 + "***           If they are referring the same instance,              ***\n"
-                + "***                      \"true\" is printed.                         ***\n"
-                + "***                  Else \"false\" is printed.                       ***\n"
+                + "***                      \"true\" is printed.                       ***\n"
+                + "***                  Else \"false\" is printed.                     ***\n"
                 + "***                      Input -1 to quit.                          ***\n"
                 + "***                     Index start from 0.                         ***\n"
                 + "***                                                                 ***\n"
@@ -70,18 +69,14 @@ public class FlyweightTest {
                     flag = false;
                     break;
                 case 1: {
-                    classChosen = MangoIceCream.class;
-                    break;
-                }
-                case 2: {
                     classChosen = MatchaIceCream.class;
                     break;
                 }
-                case 3: {
+                case 2: {
                     classChosen = ChocolateIceCream.class;
                     break;
                 }
-                case 4: {
+                case 3: {
                     classChosen = ChocolateWafer.class;
                     break;
                 }

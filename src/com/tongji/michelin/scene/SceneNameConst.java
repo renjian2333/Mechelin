@@ -23,9 +23,9 @@ public class SceneNameConst {
 
     public static final String MANUFACTURING_AREA = "manufacturing area";
 
-    public static final String WORKSHOP = "workshop";
+    public static final String COOKSHOP = "cookShop";
 
-    public static final String CHINESE_COOKSHOP = "chinese cookshop";
+    public static final String CHINESE_COOKSHOP = "chinese cookShop";
 
     public static final String WESTERN_COOKSHOP = "Western cookShop";
 

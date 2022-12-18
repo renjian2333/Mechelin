@@ -42,7 +42,7 @@ public class FilterTest {
         System.out.println("\nNow create the three leaders.");
         FilterManager filterManager = new FilterManager();
         GeneralManager generalManager = GeneralManager.getInstance();
-        Manager manager = Manager.getWorkShopManager();
+        Manager manager = Manager.getCookShopManager();
         Stockholder stockholder = new Stockholder("Brian", 21, Person.Sex.MALE);
 
         System.out.println("\nNow put the leaders into the process.");

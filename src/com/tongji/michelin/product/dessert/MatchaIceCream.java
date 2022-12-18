@@ -17,7 +17,10 @@ public class MatchaIceCream extends Dessert {
     protected Shape shape;
 
 // constructor
-
+public MatchaIceCream(){
+    super("Matcha Ice-cream", 6, 7);
+    this.initIngredientList();
+}
     /**
      * @param shape
      */
@@ -38,7 +41,6 @@ public class MatchaIceCream extends Dessert {
      */
     @Override
     protected void initIngredientList() {
-        super.ingredientList.add(new CocoaBean());
         super.ingredientList.add(new Butter());
         super.ingredientList.add(new Egg());
         super.ingredientList.add(new Flour());

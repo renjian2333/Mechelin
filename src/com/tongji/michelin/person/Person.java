@@ -5,11 +5,9 @@ import com.tongji.michelin.person.filterchain.message.Message;
 import com.tongji.michelin.scene.Scene;
 
 /**
- * @author Brian.Z
- * @project chocolateFactory
+ * @author zqr
  * @classname Person
  * @description The base class of all people
- * @date 2020/11/7 12:48
  */
 public abstract class Person {
 

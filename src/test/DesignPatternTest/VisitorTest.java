@@ -5,11 +5,9 @@ import com.tongji.michelin.factory.CaoanRestaurant;
 import java.util.Scanner;
 
 /**
- * @author Y.C.Young, Zeus Lee
- * @project chocolateFactory
+ * @author zqr
  * @classname VisitorTest
  * @description test for visitor pattern
- * @date 2020/11/22 22:07
  */
 public class VisitorTest {
 
@@ -47,7 +45,7 @@ public class VisitorTest {
                     flag = false;
                     break;
                 case 1: {
-                    System.out.println("Visitor Pattern Test: Test the treatment method of Cleaner (Cleaner)：");
+                    System.out.println("Visitor Pattern Test: Test the treatment method of Cleaner (Cleaner):");
                     CaoanRestaurant.getCaoanRestaurant().doClean();
                     System.out.println("");
                     break;

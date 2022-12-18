@@ -1,16 +1,14 @@
 package test.DesignPatternTest;
 
-import com.tongji.michelin.product.dessert.MangoIceCream;
+import com.tongji.michelin.product.dessert.ChocolateCake;
 import com.tongji.michelin.product.memento.ProductCaretaker;
 
 import java.util.Scanner;
 
 /**
- * @author Brian.Z
- * @project chocolateFactory
+ * @author zqr
  * @classname MementoTest
  * @description Test for Design Pattern --- Memento
- * @date 2020/11/24 20:48
  */
 public class MementoTest {
 
@@ -42,34 +40,33 @@ public class MementoTest {
         Scanner input = new Scanner(System.in);
         int weight;
 
-        System.out.println("Let's make a chocolate cake!");
-        System.out.print("Step 1: Input the size of the chocolate cake" +
-                "(weight = 100*size*size):");
+        System.out.println("Let's make a chocolate cake !");
+        System.out.print("Step 1: Input the size of the chocolate cake "+"(wight=100*size*size):" );
         weight = input.nextInt();
 
-        MangoIceCream cake = new MangoIceCream(weight);
+        ChocolateCake iceCream = new ChocolateCake(weight);
         System.out.println("");
-        System.out.println("Successfully create a chocolate cake of " + cake.getWeight() + " grams");
+        System.out.println("Successfully create the chocolate cake  of " + iceCream.getWeight() + " grams");
         System.out.println("");
 
-        System.out.println("Step 2: Create a memento to store the weight of the chocolate cake");
+        System.out.println("Step 2: Create a memento to store the weight of the chocolate cake ");
         System.out.println("Create a product memento...");
         ProductCaretaker caretaker = new ProductCaretaker();
-        caretaker.setProductMemento(cake.createMemento());
-        System.out.println("Message in the memento:    The weight of chocolate cake in the memento is " +
+        caretaker.setProductMemento(iceCream.createMemento());
+        System.out.println("Message in the memento:    The weight of chocolate cake  in the memento is " +
                 caretaker.getProductMemento().getWeight() + " grams.");
         System.out.println("");
 
-        System.out.println("Step 3: Set a new weight of the chocolate cake");
+        System.out.println("Step 3: Set a new weight of the chocolate cake ");
         System.out.print("Input the new weight:");
         weight = input.nextInt();
-        cake.setWeight(weight);
+        iceCream.setWeight(weight);
         System.out.println("");
-        System.out.println("Now the weight of chocolate cake is " + cake.getWeight() + " grams");
+        System.out.println("Now the weight of chocolate cake  is " + iceCream.getWeight() + " grams");
         System.out.println("");
 
         System.out.println("Step 4: Get the old weight from memento");
-        cake.restoreMemento(caretaker.getProductMemento());
-        System.out.println("Now the weight of chocolate cake is " + cake.getWeight() + " grams");
+        iceCream.restoreMemento(caretaker.getProductMemento());
+        System.out.println("Now the weight of chocolate cake  is " + iceCream.getWeight() + " grams");
     }
 }

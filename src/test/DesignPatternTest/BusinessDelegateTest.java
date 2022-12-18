@@ -8,11 +8,9 @@ import com.tongji.michelin.scene.staffarea.manufacturingarea.warehouse.Warehouse
 import java.util.Scanner;
 
 /**
- * @author Brian.Z
- * @project chocolateFactory
+ * @author zqr
  * @classname BusinessDelegateTest
  * @description Test for Design Pattern --- Business Delegate
- * @date 2020/11/20 18:03
  */
 public class BusinessDelegateTest {
 

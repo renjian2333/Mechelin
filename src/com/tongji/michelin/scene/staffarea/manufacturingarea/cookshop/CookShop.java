@@ -13,7 +13,7 @@ import com.tongji.michelin.scene.staffarea.manufacturingarea.ManufacturingArea;
  * @description Workshop where the production is produced
  * @date 2020/11/9 20:05
  */
-public abstract class CookShop extends ManufacturingArea {
+public class CookShop extends ManufacturingArea {
 
     public ProductMachine productMachine;
 
@@ -22,16 +22,18 @@ public abstract class CookShop extends ManufacturingArea {
     }
 
     public CookShop(String location, double cost, double area) {
-        super(location, cost, area, Manager.getWorkShopManager());
-        Manager.getWorkShopManager().addDepartment(this);
-        GeneralManager.getInstance().addManager(Manager.getWorkShopManager());
+        super(location, cost, area, Manager.getCookShopManager());
+        Manager.getCookShopManager().addDepartment(this);
+        GeneralManager.getInstance().addManager(Manager.getCookShopManager());
     }
 
     /**
      * @return name of the scene as a String
      */
     @Override
-    public abstract String toString();
+    public String toString() {
+        return "kitchen";
+    }
 
     /**
      * Visitor Pattern: accept a utility worker to maintenance the scene
@@ -44,16 +46,18 @@ public abstract class CookShop extends ManufacturingArea {
     }
 
     /**
-     * produce product 1 of the production family: Chocolate
-     *
+     * produce dinner
      */
-    public abstract void produceDinner();
+    public void produceDinner() {
+
+    }
 
     /**
-     * produce product 2 of the production family: ChocolateCookie
-     *
+     * produce product 2 of the production family: dessert
      */
-    public abstract void produceDessert();
+    public void produceDessert() {
+
+    }
 
 
 }

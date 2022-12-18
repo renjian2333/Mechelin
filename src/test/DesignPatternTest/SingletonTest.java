@@ -5,11 +5,9 @@ import com.tongji.michelin.person.GeneralManager;
 import java.util.Scanner;
 
 /**
- * @author Brian.Z
- * @project chocolateFactory
+ * @author zqr
  * @classname SingletonTest
  * @description Test for Singleton
- * @date 2020/11/19 1:28
  */
 public class SingletonTest {
 

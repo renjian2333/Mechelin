@@ -3,16 +3,14 @@ package test.DesignPatternTest;
 import com.tongji.michelin.machine.transportmachine.BigTruck;
 import com.tongji.michelin.machine.transportmachine.SmallCar;
 import com.tongji.michelin.machine.transportmachine.Van;
-import com.tongji.michelin.product.dessert.MangoIceCream;
+import com.tongji.michelin.product.dessert.ChocolateCake;
 
 import java.util.Scanner;
 
 /**
- * @author Brian.Z
- * @project chocolateFactory
+ * @author zqr
  * @classname TemplateMethodTest
  * @description Test for Template Method
- * @date 2020/11/20 21:06
  */
 public class TemplateMethodTest {
 
@@ -32,12 +30,12 @@ public class TemplateMethodTest {
 
         System.out.println("We will use the transport machine to test the template method.");
         System.out.println("Suppose that we want to transport 50 chocolate cakes.");
-        MangoIceCream cakes = new MangoIceCream(1);
+        ChocolateCake cakes = new ChocolateCake(1);
 
         do {
             System.out.println("");
             System.out.println("************************* Template Method Test ************************");
-            System.out.println("***                 To transport chocolate cakes                    ***");
+            System.out.println("***                 To transport chocolate cake                    ***");
             System.out.println("***                 1. Use a big truck                              ***");
             System.out.println("***                 2. Use a van                                    ***");
             System.out.println("***                 3. Use a small car                              ***");

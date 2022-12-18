@@ -60,9 +60,9 @@ public class ValueObjectTest {
                         break;
                     }
                     if (westernDish1.equals(westernDish2))
-                        System.out.println("The two milk chocolate products are equal in value.");
+                        System.out.println("The two western dish products are equal in value.");
                     else
-                        System.out.println("The two milk chocolate products are NOT equal in value!");
+                        System.out.println("The two western dish products are NOT equal in value!");
                     break;
                 }
                 case 2: {
@@ -77,17 +77,17 @@ public class ValueObjectTest {
                     normalWesternDishController.startProduce();
                     System.out.println("Get product2 ...");
                     westernDish2 = normalWesternDishController.getWesternDish();
-                    System.out.println("MilkChocolate product2 is in normal flavor...");
+                    System.out.println("WesternDish product2 is in normal flavor...");
                     break;
                 }
                 case 3: {
-                    System.out.println("Create a new MilkChocMachine producing milk chocolate in thick flavor and give control of it to a controller...");
+                    System.out.println("Create a new MilkChocMachine producing western dish in thick flavor and give control of it to a controller...");
                     WesternDishController thickWesternDishController = new WesternDishController(new VegetableWesternDishMachine());
                     System.out.println("Let thickMilkChocMachine start producing...");
                     thickWesternDishController.startProduce();
                     System.out.println("Get product2 ...");
                     westernDish2 = thickWesternDishController.getWesternDish();
-                    System.out.println("MilkChocolate product2 is in thick flavor...");
+                    System.out.println("WesternDish product2 is in thick flavor...");
                     break;
                 }
                 default: {

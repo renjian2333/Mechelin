@@ -4,7 +4,7 @@ import com.tongji.michelin.machine.processmachine.productmachine.BasicProductMac
 import com.tongji.michelin.machine.processmachine.wrappermachine.WrapperMachine;
 import com.tongji.michelin.machine.processmachine.wrappermachine.strategy.BagWrapStrategy;
 import com.tongji.michelin.product.Product;
-import com.tongji.michelin.product.dessert.MangoIceCream;
+import com.tongji.michelin.product.dessert.ChocolateCake;
 import com.tongji.michelin.product.state.PackagedState;
 import com.tongji.michelin.product.state.ProducedState;
 import com.tongji.michelin.product.state.ProducingState;
@@ -12,11 +12,9 @@ import com.tongji.michelin.product.state.ProducingState;
 import java.util.Scanner;
 
 /**
- * @author Brian.Z
- * @project chocolateFactory
+ * @author zqr
  * @classname StateTest
  * @description Test for Design Pattern --- State
- * @date 2020/11/24 17:43
  */
 public class StateTest {
 
@@ -51,7 +49,7 @@ public class StateTest {
         boolean flag = true;
 
         // You can create any product here.
-        Product product = new MangoIceCream(1);
+        Product product = new ChocolateCake(1);
         System.out.println("The initial state of product is \"" + product.getState() + "\"");
 
         do {
@@ -71,7 +69,7 @@ public class StateTest {
                     flag = false;
                     break;
                 case 1: {
-                    System.out.println("Let's produce the chocolate cake.");
+                    System.out.println("Let's produce the chocolate cake .");
                     System.out.println("Create a product machine...");
                     BasicProductMachine bpm = new BasicProductMachine("PR", "101");
                     product.setProduceMachine(bpm);
@@ -81,7 +79,7 @@ public class StateTest {
                     break;
                 }
                 case 2: {
-                    System.out.println("Let's package the chocolate cake.");
+                    System.out.println("Let's package the chocolate cake .");
                     System.out.println("Create a wrapper machine...");
                     WrapperMachine wm = new WrapperMachine("PA","101");
                     wm.setStrategy(new BagWrapStrategy());

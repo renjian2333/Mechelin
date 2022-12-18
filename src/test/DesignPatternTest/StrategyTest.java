@@ -5,7 +5,7 @@ import com.tongji.michelin.machine.processmachine.wrappermachine.strategy.BagWra
 import com.tongji.michelin.machine.processmachine.wrappermachine.strategy.BoxWrapStrategy;
 import com.tongji.michelin.machine.processmachine.wrappermachine.strategy.CupWrapStrategy;
 import com.tongji.michelin.product.dinner.KungPaoChicken;
-import com.tongji.michelin.product.dessert.MangoIceCream;
+import com.tongji.michelin.product.dessert.ChocolateCake;
 import com.tongji.michelin.product.dessert.MatchaIceCream;
 import com.tongji.michelin.product.dessert.ChocolateIceCream;
 import com.tongji.michelin.product.state.ProducedState;
@@ -62,10 +62,10 @@ public class StrategyTest {
                 case 1: {
                     System.out.println("\nLet's use a box to wrap the chocolate cake.\n");
                     System.out.println("Create a chocolate cake...");
-                    MangoIceCream mangoIceCream = new MangoIceCream(1);
-                    mangoIceCream.setState(new ProducedState());// 假装生产完成了
+                    ChocolateCake chocolateCake = new ChocolateCake(1);
+                    chocolateCake.setState(new ProducedState());// 假装生产完成了
                     wrapperMachine1.setStrategy(new BoxWrapStrategy());
-                    wrapperMachine1.process(mangoIceCream, 1);
+                    wrapperMachine1.process(chocolateCake, 1);
                     break;
                 }
                 case 2: {

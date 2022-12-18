@@ -5,7 +5,6 @@ import com.tongji.michelin.person.GeneralManager;
 import com.tongji.michelin.person.filterchain.message.Message;
 import com.tongji.michelin.person.staff.worker.Worker;
 import com.tongji.michelin.scene.Scene;
-import com.tongji.michelin.scene.SceneNameConst;
 import com.tongji.michelin.scene.staffarea.StaffArea;
 
 import java.util.ArrayList;
@@ -27,7 +26,7 @@ public class Manager extends Staff {
 
     private static Manager officeManager;
 
-    private static Manager workShopManager;
+    private static Manager cookShopManager;
 
     private static Manager warehouseManager;
 
@@ -38,7 +37,7 @@ public class Manager extends Staff {
 
         diningRoomManager = null;
         officeManager = null;
-        workShopManager = null;
+        cookShopManager = null;
         warehouseManager = null;
     }
 
@@ -73,12 +72,12 @@ public class Manager extends Staff {
      *
      * @return Manager
      */
-    public static Manager getWorkShopManager() {
-        if (workShopManager == null) {
-            workShopManager = new Manager("workShopManager", 30, Sex.FEMALE, 800);
+    public static Manager getCookShopManager() {
+        if (cookShopManager == null) {
+            cookShopManager = new Manager("cookShopManager", 30, Sex.FEMALE, 800);
         }
-        System.out.println("Here is our workshop manager.");
-        return workShopManager;
+        System.out.println("Here is our cookShop manager.");
+        return cookShopManager;
     }
 
     /**
@@ -250,5 +249,22 @@ public class Manager extends Staff {
         }
         Manager temp = (Manager) obj;
         return this.name.equals(temp.name);
+    }
+
+
+    /**
+     * dispatch menu to order machines
+     */
+    public void dispatchMenu() {
+//        if (managerList.isEmpty()) {
+//            System.out.println("Please add manager to each scene first!!");
+//        }
+//        for (Manager manager : managerList) {
+//            System.out.println("Dispatch work to " + manager.name);
+//            manager.dispatchTask();
+//        }
+    }
+    public void receiveDinner() {
+        System.out.println("The cook received the order and start to prepare.");
     }
 }

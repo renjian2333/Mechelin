@@ -8,11 +8,9 @@ import com.tongji.michelin.scene.staffarea.StaffArea;
 import java.util.ArrayList;
 
 /**
- * @author Y.C.Young
- * @project chocolateFactory
+ * @author zqr
  * @classname ManufacturingArea
- * @description Inherited from StaffArea, this class represents areas for manufacturing(warehouses and workshops)
- * @date 2020/11/9 20:01
+ * @description Inherited from StaffArea, this class represents areas for manufacturing(warehouses and each workshops)
  */
 public abstract class ManufacturingArea extends StaffArea {
 

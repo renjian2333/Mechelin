@@ -15,11 +15,9 @@ import com.tongji.michelin.scene.staffarea.manufacturingarea.cookshop.CookShop;
 import java.util.Scanner;
 
 /**
- * @author Brian.Z
- * @project chocolateFactory
+ * @author zqr
  * @classname ObserverTest
  * @description Test for Design Pattern --- Observer
- * @date 2020/11/24 22:36
  */
 public class ObserverTest {
 
@@ -94,7 +92,7 @@ public class ObserverTest {
         System.out.println("");
         System.out.println("********    Here is our worker list   ********");
         System.out.printf("***%-10s%-10s%-10s%-10s***\n", "Name", "Sex", "Age", "Salary");
-        System.out.println("   In the workshop:");
+        System.out.println("   In the cookshop:");
         for (Staff staff : cookShop.getWorkerList()) {
             System.out.printf("***%-10s%-10s%-10s%-10s***\n", staff.getName(), staff.getSex(), staff.getAge(), staff.getSalary());
         }
@@ -113,7 +111,7 @@ public class ObserverTest {
         System.out.println("***              Now choose the staffs who can get paid!            ***");
         System.out.println("***                                                                 ***");
         System.out.println("***              1. add the guard(Young Young) to the payroll       ***");
-        System.out.println("***              2. add all staffs in the workshop to the payroll   ***");
+        System.out.println("***              2. add all staffs in the cookshop to the payroll   ***");
         System.out.println("***              3. add all staffs in the warehouse to the payroll  ***");
         System.out.println("***              4. remove a staff from the payroll                 ***");
         System.out.println("***              5. give the payroll                                ***");

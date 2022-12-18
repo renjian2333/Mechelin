@@ -32,8 +32,8 @@ public class WorkerAddingController {
         } else if (scene.toString().equals(SceneNameConst.DINING_ROOM)) {
             workerObj = new DinningRoomWorker(name, age, sex, salary, scene);
             scene.addWorker(workerObj);
-        } else if (scene.toString().contains(SceneNameConst.WORKSHOP)) {
-            workerObj = new WorkshopWorker(name, age, sex, salary, scene);
+        } else if (scene.toString().contains(SceneNameConst.COOKSHOP)) {
+            workerObj = new CookShopWorker(name, age, sex, salary, scene);
             scene.addWorker(workerObj);
         } else if (scene.toString().equals(SceneNameConst.WAREHOUSE)) {
             workerObj = new WarehouseWorker(name, age, sex, salary, scene);

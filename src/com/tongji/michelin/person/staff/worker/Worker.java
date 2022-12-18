@@ -3,7 +3,7 @@ package com.tongji.michelin.person.staff.worker;
 import com.tongji.michelin.person.staff.Staff;
 import com.tongji.michelin.product.Product;
 import com.tongji.michelin.product.dinner.*;
-import com.tongji.michelin.product.dessert.MangoIceCream;
+import com.tongji.michelin.product.dessert.ChocolateCake;
 import com.tongji.michelin.product.dessert.MatchaIceCream;
 import com.tongji.michelin.product.dessert.ChocolateIceCream;
 import com.tongji.michelin.product.dessert.ChocolateWafer;
@@ -36,7 +36,7 @@ public abstract class Worker extends Staff {
         this.matchaChocolate = new MatchaChocolate();
         this.milkChocolate = new WesternDish();
         this.whiteChocolate = new Steak();
-        this.chocolateCake = new MangoIceCream(5);
+        this.chocolateCake = new ChocolateCake(5);
         this.chocolateStarCookie = new MatchaIceCream(MatchaIceCream.Shape.STAR);
         this.chocolateIceCream = new ChocolateIceCream();
         this.chocolateWafer = new ChocolateWafer();
@@ -143,5 +143,6 @@ public abstract class Worker extends Staff {
     /**
      * feedback
      */
+
     public abstract void feedBack();
 }

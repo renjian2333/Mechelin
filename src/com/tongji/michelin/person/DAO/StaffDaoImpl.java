@@ -2,7 +2,8 @@ package com.tongji.michelin.person.DAO;
 
 import com.tongji.michelin.person.Person;
 import com.tongji.michelin.person.staff.Staff;
-import com.tongji.michelin.person.staff.worker.WorkshopWorker;
+import com.tongji.michelin.person.staff.worker.CookShopWorker;
+//import com.tongji.michelin.person.staff.worker.WorkshopWorker;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,7 +41,7 @@ public class StaffDaoImpl implements StaffDao {
                 this.asset = salary;
             }
         };
-        Staff staff3 = new WorkshopWorker("Illidan", 21, Person.Sex.MALE, 6500);
+        Staff staff3 = new CookShopWorker("Illidan", 21, Person.Sex.MALE, 6500);
         allStaff.add(staff1);
         allStaff.add(staff2);
         allStaff.add(staff3);

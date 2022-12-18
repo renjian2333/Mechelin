@@ -2,7 +2,7 @@ package test.DesignPatternTest;
 
 import com.tongji.michelin.person.Person;
 import com.tongji.michelin.person.staff.worker.Worker;
-import com.tongji.michelin.person.staff.worker.WorkshopWorker;
+import com.tongji.michelin.person.staff.worker.CookShopWorker;
 
 import java.util.Scanner;
 
@@ -25,7 +25,7 @@ public class CommandTest {
         System.out.println("");
 
         System.out.println("Firstly, we need to create a worker.");
-        Worker worker = new WorkshopWorker("worker", 18, Person.Sex.MALE, 10);
+        Worker worker = new CookShopWorker("worker", 18, Person.Sex.MALE, 10);
 
         System.out.println("");
         System.out.println("*******************             Command Test        *******************");

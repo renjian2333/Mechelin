@@ -3,25 +3,26 @@ package com.tongji.michelin.product.dessert;
 import com.tongji.michelin.rawmaterial.foodmaterial.*;
 
 /**
- * @author Kerr
- * @project chocolateFactory
+ * @author zqr
  * @classname ChocolateCake
  * @description this is chocolate cake, the feature of which is the size.
  * Here I've defined size to stand for the radius of the cake.
- * @date 2020/11/8 15:25
  */
-public class MangoIceCream extends Dessert {
+public class ChocolateCake extends Dessert {
 
 // fields
     protected int size; //how many inches is its radius
 
 //constructor
-
+public ChocolateCake(){
+    super("chocolate cake", 1, 900);
+    this.initIngredientList();
+}
     /**
      * @param size
      */
-    public MangoIceCream(int size) {
-        super("Mango Ice-cream", 1, size * size * 100);
+    public ChocolateCake(int size) {
+        super("chocolate cake", 1, size * size * 100);
         this.size = size;
         this.initIngredientList();
     }
@@ -57,7 +58,7 @@ public class MangoIceCream extends Dessert {
      */
     @Override
     public String toString() {
-        return "MangoIceCream";
+        return "ChocolateCake";
     }
 
 }

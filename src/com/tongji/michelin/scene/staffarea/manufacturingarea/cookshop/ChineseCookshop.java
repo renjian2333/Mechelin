@@ -6,18 +6,16 @@ import com.tongji.michelin.product.dessert.MatchaIceCream;
 import com.tongji.michelin.scene.SceneNameConst;
 
 /**
- * @author Yuan.Cai
- * @project chocolateFactory
- * @classname BlackWorkshop
- * @description This workshop produces dark chocolate and cat shaped cookies.
- * @date 2020/11/14 1:05
+ * @author zqr
+ * @classname ChineseCookshop
+ * @description This cookshop produces Chinese food.
  */
 public class ChineseCookshop extends CookShop {
     public ChineseCookshop() {
         super();
         productMachine = new BasicProductMachine("PR", "0324");
         String name = productMachine.getMachineID();
-        System.out.println("In the ChineseCookshop, machine " + name + " has been set to produce.\n");
+        System.out.println("In the Chinese CookShop, machine " + name + " has been set to produce.\n");
         productMachine.setAimProcessNum(250);
     }
 
